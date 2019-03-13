@@ -1,0 +1,1661 @@
+/Users/liup/quantum/terra_aqgd/qiskit/tools/qcvv/__init__.py:13: DeprecationWarning: The qiskit.tools.qcvv package is deprecated. Please use qiskit-ignis available on PIP for similar functionality and more.
+  'functionality and more.', DeprecationWarning)
+DEBUG:matplotlib:$HOME=/Users/liup
+DEBUG:matplotlib:CONFIGDIR=/Users/liup/.matplotlib
+DEBUG:matplotlib:matplotlib data path: /anaconda3/envs/aqgd/lib/python3.6/site-packages/matplotlib/mpl-data
+DEBUG:matplotlib:loaded rc file /anaconda3/envs/aqgd/lib/python3.6/site-packages/matplotlib/mpl-data/matplotlibrc
+DEBUG:matplotlib:matplotlib version 3.0.3
+DEBUG:matplotlib:interactive is False
+DEBUG:matplotlib:platform is darwin
+DEBUG:matplotlib:loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'site', 'os', 'errno', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_sysconfigdata_m_darwin_darwin', '_osx_support', 're', 'enum', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', '_locale', 'copyreg', '_bootlocale', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'logging', 'time', 'traceback', 'linecache', 'tokenize', 'token', 'string', '_string', 'threading', 'atexit', 'parameterized', 'parameterized.parameterized', 'inspect', 'ast', '_ast', 'dis', 'opcode', '_opcode', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'pprint', 'unittest.suite', 'unittest.loader', 'fnmatch', 'unittest.main', 'argparse', 'copy', 'textwrap', 'gettext', 'locale', 'struct', '_struct', 'unittest.runner', 'unittest.signals', 'signal', 'qiskit', 'pkgutil', 'qiskit._util', 'platform', 'subprocess', '_posixsubprocess', 'select', 'selectors', 'math', 'socket', '_socket', 'psutil', '__future__', 'datetime', '_datetime', 'pwd', 'psutil._common', 'psutil._compat', 'shutil', 'zlib', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'grp', 'psutil._psosx', 'psutil._psposix', 'glob', 'psutil._psutil_osx', 'psutil._psutil_posix', 'marshmallow', 'marshmallow.schema', 'decimal', 'numbers', '_decimal', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'uuid', 'ctypes', '_ctypes', 'ctypes._endian', 'ctypes.util', 'ctypes.macholib', 'ctypes.macholib.dyld', 'ctypes.macholib.framework', 'ctypes.macholib.dylib', 'marshmallow.base', 'marshmallow.fields', 'marshmallow.validate', 'marshmallow.compat', 'urllib', 'urllib.parse', 'marshmallow.exceptions', 'marshmallow.utils', 'calendar', 'email', 'email.utils', 'random', 'hashlib', '_hashlib', '_blake2', '_sha3', 'bisect', '_bisect', '_random', 'email._parseaddr', 'email.charset', 'email.base64mime', 'base64', 'binascii', 'email.quoprimime', 'email.errors', 'email.encoders', 'quopri', 'marshmallow.warnings', 'dateutil', 'dateutil._version', 'dateutil.parser', 'dateutil.parser._parser', 'six', 'dateutil.relativedelta', 'dateutil._common', 'dateutil.tz', 'dateutil.tz.tz', 'six.moves', 'dateutil.tz._common', 'dateutil.tz._factories', 'dateutil.parser.isoparser', 'marshmallow.class_registry', 'marshmallow.marshalling', 'marshmallow.orderedset', 'marshmallow.decorators', 'distutils', 'distutils.version', 'qiskit.exceptions', 'qiskit.circuit', 'qiskit.circuit.quantumcircuit', 'multiprocessing', 'multiprocessing.context', 'multiprocessing.process', 'multiprocessing.reduction', 'pickle', '_compat_pickle', 'array', '__mp_main__', 'qiskit.qasm', 'sympy', 'mpmath', 'mpmath.usertools', 'mpmath.ctx_fp', 'mpmath.ctx_base', 'mpmath.libmp', 'mpmath.libmp.libmpf', 'mpmath.libmp.backend', 'mpmath.libmp.six', 'mpmath.libmp.six.moves', 'mpmath.libmp.libintmath', 'mpmath.libmp.libmpc', 'mpmath.libmp.libelefun', 'mpmath.libmp.libhyper', 'mpmath.libmp.gammazeta', 'mpmath.libmp.libmpi', 'mpmath.functions', 'mpmath.functions.functions', 'cmath', 'mpmath.functions.factorials', 'mpmath.functions.hypergeometric', 'mpmath.functions.expintegrals', 'mpmath.functions.bessel', 'mpmath.functions.orthogonal', 'mpmath.functions.theta', 'mpmath.functions.elliptic', 'mpmath.functions.zeta', 'mpmath.functions.rszeta', 'mpmath.functions.zetazeros', 'mpmath.functions.qfunctions', 'mpmath.calculus', 'mpmath.calculus.calculus', 'mpmath.calculus.approximation', 'mpmath.calculus.differentiation', 'mpmath.calculus.extrapolation', 'mpmath.calculus.polynomials', 'mpmath.calculus.quadrature', 'mpmath.calculus.inverselaplace', 'mpmath.calculus.optimization', 'mpmath.calculus.odes', 'mpmath.matrices', 'mpmath.matrices.eigen', 'mpmath.matrices.eigen_symmetric', 'mpmath.matrices.matrices', 'mpmath.matrices.calculus', 'mpmath.matrices.linalg', 'mpmath.identification', 'mpmath.visualization', 'colorsys', 'mpmath.math2', 'mpmath.function_docs', 'mpmath.ctx_mp', 'mpmath.rational', 'mpmath.ctx_mp_python', 'mpmath.ctx_iv', 'sympy.release', 'sympy.core', 'sympy.core.sympify', 'sympy.core.core', 'sympy.core.compatibility', 'sympy.external', 'sympy.external.importtools', 'sympy.core.evaluate', 'sympy.core.cache', 'sympy.core.basic', 'sympy.core.assumptions', 'sympy.core.facts', 'sympy.core.logic', 'sympy.core.singleton', 'sympy.core.expr', 'sympy.core.evalf', 'sympy.utilities', 'sympy.utilities.iterables', 'sympy.utilities.enumerative', 'sympy.utilities.misc', 'sympy.utilities.lambdify', 'sympy.utilities.decorator', 'sympy.core.decorators', 'sympy.utilities.source', 'sympy.utilities.exceptions', 'sympy.utilities.runtests', 'pdb', 'cmd', 'bdb', 'code', 'codeop', 'timeit', 'gc', 'doctest', 'tempfile', 'sympy.utilities.timeutils', 'sympy.core.mul', 'sympy.core.operations', 'sympy.core.numbers', 'fractions', 'sympy.core.containers', 'sympy.core.power', 'sympy.core.function', 'sympy.core.add', 'sympy.core.rules', 'sympy.core.symbol', 'sympy.logic', 'sympy.logic.boolalg', 'sympy.logic.inference', 'sympy.core.mod', 'sympy.core.exprtools', 'sympy.core.coreerrors', 'sympy.core.relational', 'sympy.core.multidimensional', 'sympy.assumptions', 'sympy.assumptions.assume', 'sympy.assumptions.ask', 'sympy.assumptions.ask_generated', 'sympy.assumptions.refine', 'sympy.polys', 'sympy.polys.polytools', 'sympy.polys.polyclasses', 'sympy.polys.polyutils', 'sympy.polys.polyerrors', 'sympy.polys.polyoptions', 'sympy.polys.densebasic', 'sympy.polys.monomials', 'sympy.polys.orderings', 'sympy.polys.densearith', 'sympy.polys.densetools', 'sympy.polys.euclidtools', 'sympy.polys.galoistools', 'sympy.polys.polyconfig', 'sympy.ntheory', 'sympy.ntheory.generate', 'sympy.ntheory.primetest', 'sympy.ntheory.factor_', 'sympy.ntheory.partitions_', 'sympy.ntheory.residue_ntheory', 'sympy.ntheory.multinomial', 'sympy.ntheory.continued_fraction', 'sympy.ntheory.egyptian_fraction', 'sympy.polys.sqfreetools', 'sympy.polys.factortools', 'sympy.polys.rootisolation', 'sympy.polys.rationaltools', 'sympy.polys.groebnertools', 'sympy.polys.fglmtools', 'sympy.polys.domains', 'sympy.polys.domains.domain', 'sympy.polys.domains.domainelement', 'sympy.polys.domains.finitefield', 'sympy.polys.domains.field', 'sympy.polys.domains.ring', 'sympy.polys.domains.simpledomain', 'sympy.polys.domains.groundtypes', 'sympy.polys.domains.pythonrational', 'sympy.printing', 'sympy.printing.pretty', 'sympy.printing.pretty.pretty', 'sympy.printing.precedence', 'sympy.printing.printer', 'sympy.printing.str', 'sympy.printing.conventions', 'sympy.printing.pretty.stringpict', 'sympy.printing.pretty.pretty_symbology', 'unicodedata', 'sympy.core.alphabets', 'sympy.printing.latex', 'sympy.printing.mathml', 'sympy.printing.python', 'sympy.printing.repr', 'sympy.printing.pycode', 'sympy.printing.codeprinter', 'sympy.codegen', 'sympy.codegen.ast', 'sympy.printing.ccode', 'sympy.sets', 'sympy.sets.sets', 'sympy.sets.contains', 'sympy.multipledispatch', 'sympy.multipledispatch.core', 'sympy.multipledispatch.dispatcher', 'sympy.multipledispatch.conflict', 'sympy.multipledispatch.utils', 'sympy.sets.fancysets', 'sympy.sets.conditionset', 'sympy.sets.ordinals', 'sympy.printing.glsl', 'sympy.printing.cxxcode', 'sympy.printing.fcode', 'sympy.codegen.fnodes', 'sympy.printing.rcode', 'sympy.printing.jscode', 'sympy.printing.julia', 'sympy.printing.mathematica', 'sympy.printing.octave', 'sympy.printing.rust', 'sympy.printing.gtk', 'sympy.printing.preview', 'sympy.printing.tree', 'sympy.printing.tableform', 'sympy.printing.dot', 'sympy.printing.defaults', 'sympy.polys.domains.modularinteger', 'sympy.polys.domains.integerring', 'sympy.polys.domains.characteristiczero', 'sympy.polys.domains.rationalfield', 'sympy.polys.domains.realfield', 'sympy.polys.domains.mpelements', 'sympy.polys.domains.complexfield', 'sympy.polys.domains.pythonfinitefield', 'sympy.polys.domains.pythonintegerring', 'sympy.polys.domains.gmpyfinitefield', 'sympy.polys.domains.gmpyintegerring', 'sympy.polys.domains.pythonrationalfield', 'sympy.polys.domains.gmpyrationalfield', 'sympy.polys.domains.algebraicfield', 'sympy.polys.domains.polynomialring', 'sympy.polys.domains.compositedomain', 'sympy.polys.domains.fractionfield', 'sympy.polys.domains.expressiondomain', 'sympy.polys.constructor', 'sympy.polys.polyfuncs', 'sympy.polys.specialpolys', 'sympy.functions', 'sympy.functions.combinatorial', 'sympy.functions.combinatorial.factorials', 'sympy.functions.combinatorial.numbers', 'sympy.functions.elementary', 'sympy.functions.elementary.complexes', 'sympy.functions.elementary.miscellaneous', 'sympy.functions.elementary.integers', 'sympy.functions.elementary.piecewise', 'sympy.functions.elementary.exponential', 'sympy.functions.elementary.trigonometric', 'sympy.functions.elementary.hyperbolic', 'sympy.utilities.memoization', 'sympy.functions.special', 'sympy.functions.special.gamma_functions', 'sympy.functions.special.zeta_functions', 'sympy.functions.special.error_functions', 'sympy.functions.special.hyper', 'sympy.functions.special.tensor_functions', 'sympy.functions.special.delta_functions', 'sympy.functions.special.elliptic_integrals', 'sympy.functions.special.beta_functions', 'sympy.functions.special.mathieu_functions', 'sympy.functions.special.singularity_functions', 'sympy.functions.special.polynomials', 'sympy.polys.orthopolys', 'sympy.functions.special.bsplines', 'sympy.functions.special.bessel', 'sympy.functions.special.spherical_harmonics', 'sympy.polys.rings', 'sympy.polys.heuristicgcd', 'sympy.polys.compatibility', 'sympy.utilities.magic', 'sympy.polys.numberfields', 'sympy.polys.rootoftools', 'sympy.polys.polyroots', 'sympy.polys.polyquinticconst', 'sympy.simplify', 'sympy.simplify.simplify', 'sympy.simplify.radsimp', 'sympy.simplify.sqrtdenest', 'sympy.simplify.trigsimp', 'sympy.strategies', 'sympy.strategies.rl', 'sympy.strategies.util', 'sympy.strategies.traverse', 'sympy.strategies.core', 'sympy.strategies.tools', 'sympy.strategies.branch', 'sympy.strategies.branch.traverse', 'sympy.strategies.branch.core', 'sympy.strategies.branch.tools', 'sympy.strategies.tree', 'sympy.simplify.powsimp', 'sympy.simplify.cse_opts', 'sympy.simplify.combsimp', 'sympy.simplify.gammasimp', 'sympy.simplify.fu', 'sympy.simplify.cse_main', 'sympy.simplify.traversaltools', 'sympy.simplify.epathtools', 'sympy.simplify.hyperexpand', 'sympy.series', 'sympy.series.order', 'sympy.series.limits', 'sympy.series.gruntz', 'sympy.simplify.ratsimp', 'sympy.series.series', 'sympy.series.approximants', 'sympy.series.residues', 'sympy.series.sequences', 'sympy.tensor', 'sympy.tensor.indexed', 'sympy.tensor.index_methods', 'sympy.tensor.array', 'sympy.tensor.array.dense_ndim_array', 'sympy.tensor.array.mutable_ndim_array', 'sympy.tensor.array.ndim_array', 'sympy.tensor.array.sparse_ndim_array', 'sympy.tensor.array.arrayop', 'sympy.series.fourier', 'sympy.series.series_class', 'sympy.series.formal', 'sympy.series.limitseq', 'sympy.polys.ring_series', 'sympy.printing.lambdarepr', 'sympy.polys.partfrac', 'sympy.matrices', 'sympy.matrices.matrices', 'sympy.matrices.common', 'sympy.matrices.dense', 'sympy.matrices.sparse', 'sympy.matrices.immutable', 'sympy.matrices.expressions', 'sympy.matrices.expressions.slice', 'sympy.matrices.expressions.matexpr', 'sympy.matrices.expressions.matmul', 'sympy.matrices.expressions.transpose', 'sympy.matrices.expressions.matadd', 'sympy.matrices.expressions.matpow', 'sympy.matrices.expressions.inverse', 'sympy.matrices.expressions.blockmatrix', 'sympy.matrices.expressions.trace', 'sympy.matrices.expressions.determinant', 'sympy.matrices.expressions.funcmatrix', 'sympy.matrices.expressions.adjoint', 'sympy.matrices.expressions.hadamard', 'sympy.matrices.expressions.diagonal', 'sympy.matrices.expressions.dotproduct', 'sympy.matrices.expressions.kronecker', 'sympy.polys.fields', 'sympy.concrete', 'sympy.concrete.products', 'sympy.concrete.expr_with_intlimits', 'sympy.concrete.expr_with_limits', 'sympy.concrete.summations', 'sympy.calculus', 'sympy.calculus.euler', 'sympy.calculus.singularities', 'sympy.solvers', 'sympy.solvers.solvers', 'sympy.integrals', 'sympy.integrals.integrals', 'sympy.integrals.manualintegrate', 'sympy.integrals.trigonometry', 'sympy.integrals.meijerint', 'sympy.integrals.transforms', 'sympy.solvers.inequalities', 'sympy.integrals.singularityfunctions', 'sympy.solvers.polysys', 'sympy.solvers.bivariate', 'sympy.solvers.diophantine', 'sympy.solvers.solveset', 'sympy.calculus.util', 'sympy.solvers.recurr', 'sympy.solvers.ode', 'sympy.solvers.pde', 'sympy.solvers.deutils', 'sympy.solvers.decompogen', 'sympy.calculus.finite_diff', 'sympy.concrete.gosper', 'sympy.discrete', 'sympy.discrete.transforms', 'sympy.discrete.convolutions', 'sympy.geometry', 'sympy.geometry.point', 'sympy.geometry.exceptions', 'sympy.geometry.entity', 'sympy.sets.handlers', 'sympy.sets.handlers.union', 'sympy.sets.handlers.intersection', 'sympy.geometry.line', 'sympy.geometry.plane', 'sympy.geometry.ellipse', 'sympy.geometry.util', 'sympy.geometry.polygon', 'sympy.geometry.curve', 'sympy.geometry.parabola', 'sympy.parsing', 'sympy.algebras', 'sympy.algebras.quaternion', 'sympy.plotting', 'sympy.plotting.plot', 'sympy.plotting.experimental_lambdify', 'sympy.plotting.textplot', 'sympy.plotting.plot_implicit', 'sympy.plotting.intervalmath', 'sympy.plotting.intervalmath.interval_arithmetic', 'sympy.plotting.intervalmath.lib_interval', 'sympy.plotting.pygletplot', 'sympy.interactive', 'sympy.interactive.printing', 'sympy.interactive.session', 'sympy.deprecated', 'sympy.deprecated.class_registry', 'qiskit.qasm._qasm', 'qiskit.qasm.exceptions', 'qiskit.qasm._qasmparser', 'ply', 'ply.yacc', 'qiskit.qasm._node', 'qiskit.qasm._node._barrier', 'qiskit.qasm._node._node', 'qiskit.qasm._node._binaryop', 'qiskit.qasm._node._binaryoperator', 'qiskit.qasm._node._nodeexception', 'qiskit.qasm._node._cnot', 'qiskit.qasm._node._creg', 'qiskit.qasm._node._customunitary', 'qiskit.qasm._node._expressionlist', 'qiskit.qasm._node._external', 'qiskit.qasm._node._gate', 'qiskit.qasm._node._gatebody', 'qiskit.qasm._node._id', 'qiskit.qasm._node._idlist', 'qiskit.qasm._node._if', 'qiskit.qasm._node._indexedid', 'qiskit.qasm._node._intnode', 'qiskit.qasm._node._format', 'qiskit.qasm._node._measure', 'qiskit.qasm._node._opaque', 'qiskit.qasm._node._prefix', 'qiskit.qasm._node._primarylist', 'qiskit.qasm._node._program', 'qiskit.qasm._node._qreg', 'qiskit.qasm._node._real', 'qiskit.qasm._node._reset', 'qiskit.qasm._node._unaryoperator', 'qiskit.qasm._node._universalunitary', 'qiskit.qasm._qasmlexer', 'ply.lex', 'qiskit.circuit.instruction', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy._mklinit', 'numpy.core', 'numpy.core.info', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'pathlib', 'ntpath', 'numpy.core.umath', 'numpy.core.numerictypes', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core._internal', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.shape_base', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.info', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.info', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.utils', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.mixins', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.scimath', 'numpy.lib.polynomial', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft.info', 'numpy.fft.fftpack', 'numpy.fft.fftpack_lite', 'numpy.fft.helper', 'mkl_fft', 'mkl_fft._pydfti', '_cython_0_29_2', 'cython_runtime', 'mkl_fft._version', 'mkl_fft._numpy_fft', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random.mtrand', 'mtrand', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'numpy.testing._private', 'numpy.testing._private.utils', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'qiskit.circuit.quantumregister', 'qiskit.circuit.register', 'qiskit.circuit.classicalregister', 'qiskit.circuit.gate', 'qiskit.circuit.instructionset', 'qiskit.circuit.measure', 'qiskit.circuit.decorators', 'qiskit.circuit.reset', 'qiskit.circuit.compositegate', 'qiskit.tools', 'qiskit.tools.parallel', 'qiskit.tools.events', 'qiskit.tools.events.progressbar', 'qiskit.tools.events._pubsub', 'qiskit.tools.compiler', 'qiskit.compiler', 'qiskit.compiler.run_config', 'qiskit.compiler.models', 'qiskit.validation', 'qiskit.validation.base', 'qiskit.validation.exceptions', 'qiskit.validation.fields', 'qiskit.validation.fields.polymorphic', 'marshmallow_polyfield', 'marshmallow_polyfield.polyfield', 'qiskit.validation.fields.containers', 'qiskit.validation.fields.custom', 'qiskit.compiler.transpile_config', 'qiskit.compiler.assembler', 'qiskit.qobj', 'qiskit.qobj.qobj', 'qiskit.qobj.models', 'qiskit.qobj.utils', 'qiskit.qobj.exceptions', 'qiskit.qobj._validation', 'qiskit.qobj._schema_validation', 'jsonschema', 'jsonschema.exceptions', 'jsonschema._utils', 'jsonschema.compat', 'urllib.request', 'http', 'http.client', 'email.parser', 'email.feedparser', 'email._policybase', 'email.header', 'email.message', 'uu', 'email._encoded_words', 'email.iterators', 'ssl', 'ipaddress', '_ssl', 'urllib.error', 'urllib.response', '_scproxy', 'jsonschema._format', 'jsonschema.validators', 'jsonschema._validators', 'jsonschema._version', 'qiskit.compiler.transpiler', 'qiskit.transpiler', 'qiskit.transpiler.passmanager', 'qiskit.dagcircuit', 'qiskit.dagcircuit._dagcircuit', 'networkx', 'networkx.release', 'networkx.exception', 'networkx.utils', 'networkx.utils.misc', 'networkx.utils.decorators', 'decorator', 'networkx.utils.random_sequence', 'networkx.utils.union_find', 'networkx.utils.rcm', 'networkx.utils.heaps', 'networkx.utils.contextmanagers', 'networkx.classes', 'networkx.classes.graph', 'networkx.classes.coreviews', 'networkx.classes.reportviews', 'networkx.convert', 'networkx.classes.digraph', 'networkx.classes.multigraph', 'networkx.classes.multidigraph', 'networkx.classes.ordered', 'networkx.classes.function', 'networkx.classes.filters', 'networkx.classes.graphviews', 'networkx.convert_matrix', 'networkx.relabel', 'networkx.generators', 'networkx.generators.atlas', 'gzip', 'networkx.generators.classic', 'networkx.generators.community', 'networkx.generators.degree_seq', 'networkx.generators.directed', 'networkx.generators.duplication', 'networkx.generators.ego', 'networkx.generators.expanders', 'networkx.generators.geometric', 'scipy', 'scipy._distributor_init', 'scipy.__config__', 'scipy.version', 'scipy._lib', 'scipy._lib._testutils', 'scipy._lib._version', 'scipy._lib.six', 'scipy._lib._ccallback', 'scipy._lib._ccallback_c', 'scipy.spatial', 'scipy.spatial.kdtree', 'scipy.sparse', 'scipy.sparse.base', 'scipy._lib._numpy_compat', 'scipy.sparse.sputils', 'scipy.sparse.csr', 'scipy.sparse._sparsetools', 'scipy.sparse.compressed', 'scipy._lib._util', 'scipy.sparse.data', 'scipy.sparse.dia', 'scipy.sparse.csc', 'scipy.sparse.lil', 'scipy.sparse._csparsetools', 'scipy.sparse.dok', 'scipy.sparse.coo', 'scipy.sparse.bsr', 'scipy.sparse.construct', 'scipy.sparse.extract', 'scipy.sparse._matrix_io', 'scipy.sparse.csgraph', 'scipy.sparse.csgraph._laplacian', 'scipy.sparse.csgraph._shortest_path', '_cython_0_29', 'scipy.sparse.csgraph._validation', 'scipy.sparse.csgraph._tools', 'scipy.sparse.csgraph._traversal', 'scipy.sparse.csgraph._min_spanning_tree', 'scipy.sparse.csgraph._reordering', 'scipy.spatial.ckdtree', 'scipy.spatial.qhull', 'scipy._lib.messagestream', 'scipy.spatial._spherical_voronoi', 'scipy.spatial._voronoi', 'scipy.spatial.distance', 'scipy.spatial._distance_wrap', 'scipy.spatial._hausdorff', 'scipy.linalg', 'scipy.linalg.linalg_version', 'scipy.linalg.misc', 'scipy.linalg.blas', 'scipy.linalg._fblas', 'scipy.linalg.lapack', 'scipy.linalg._flapack', 'scipy.linalg.basic', 'scipy.linalg.flinalg', 'scipy.linalg._flinalg', 'scipy.linalg.decomp', 'scipy.linalg.decomp_svd', 'scipy.linalg._solve_toeplitz', 'scipy.linalg.decomp_lu', 'scipy.linalg._decomp_ldl', 'scipy.linalg.decomp_cholesky', 'scipy.linalg.decomp_qr', 'scipy.linalg._decomp_qz', 'scipy.linalg.decomp_schur', 'scipy.linalg._decomp_polar', 'scipy.linalg.matfuncs', 'scipy.linalg.special_matrices', 'scipy.linalg._expm_frechet', 'scipy.linalg._matfuncs_sqrtm', 'scipy.linalg._solvers', 'scipy.linalg._procrustes', 'scipy.linalg._decomp_update', 'scipy.linalg.cython_blas', 'scipy.linalg.cython_lapack', 'scipy.linalg._sketches', 'numpy.dual', 'scipy.special', 'scipy.special.sf_error', 'scipy.special._ufuncs', 'scipy.special._ufuncs_cxx', 'scipy.special.basic', 'scipy.special.specfun', 'scipy.special.orthogonal', 'scipy.special._comb', 'scipy.special._logsumexp', 'scipy.special.spfun_stats', 'scipy.special._ellip_harm', 'scipy.special._ellip_harm_2', 'scipy.special.lambertw', 'scipy.special._spherical_bessel', 'scipy.spatial._plotutils', 'scipy._lib.decorator', 'scipy.spatial._procrustes', 'scipy.spatial.transform', 'scipy.spatial.transform.rotation', 'networkx.generators.intersection', 'networkx.algorithms', 'networkx.algorithms.assortativity', 'networkx.algorithms.assortativity.connectivity', 'networkx.algorithms.assortativity.correlation', 'networkx.algorithms.assortativity.mixing', 'networkx.algorithms.assortativity.pairs', 'networkx.algorithms.assortativity.neighbor_degree', 'networkx.algorithms.boundary', 'networkx.algorithms.bridges', 'networkx.algorithms.chains', 'networkx.algorithms.centrality', 'networkx.algorithms.centrality.betweenness', 'networkx.algorithms.centrality.betweenness_subset', 'networkx.algorithms.centrality.closeness', 'networkx.algorithms.centrality.subgraph_alg', 'networkx.algorithms.centrality.current_flow_closeness', 'networkx.algorithms.centrality.flow_matrix', 'networkx.algorithms.centrality.current_flow_betweenness', 'networkx.algorithms.centrality.current_flow_betweenness_subset', 'networkx.algorithms.centrality.degree_alg', 'networkx.algorithms.centrality.dispersion', 'networkx.algorithms.centrality.eigenvector', 'networkx.algorithms.centrality.harmonic', 'networkx.algorithms.centrality.katz', 'networkx.algorithms.centrality.load', 'networkx.algorithms.centrality.reaching', 'networkx.algorithms.centrality.percolation', 'networkx.algorithms.centrality.second_order', 'networkx.algorithms.chordal', 'networkx.algorithms.cluster', 'networkx.algorithms.clique', 'networkx.algorithms.communicability_alg', 'networkx.algorithms.components', 'networkx.algorithms.components.connected', 'networkx.algorithms.components.strongly_connected', 'networkx.algorithms.components.weakly_connected', 'networkx.algorithms.components.attracting', 'networkx.algorithms.components.biconnected', 'networkx.algorithms.components.semiconnected', 'networkx.algorithms.coloring', 'networkx.algorithms.coloring.greedy_coloring', 'networkx.algorithms.coloring.greedy_coloring_with_interchange', 'networkx.algorithms.core', 'networkx.algorithms.covering', 'networkx.algorithms.cycles', 'networkx.algorithms.cuts', 'networkx.algorithms.dag', 'networkx.generators.trees', 'networkx.algorithms.distance_measures', 'networkx.algorithms.distance_regular', 'networkx.algorithms.dominance', 'networkx.algorithms.dominating', 'networkx.algorithms.efficiency', 'networkx.algorithms.euler', 'networkx.algorithms.graphical', 'networkx.algorithms.hierarchy', 'networkx.algorithms.hybrid', 'networkx.algorithms.link_analysis', 'networkx.algorithms.link_analysis.pagerank_alg', 'networkx.algorithms.link_analysis.hits_alg', 'networkx.algorithms.link_prediction', 'networkx.algorithms.lowest_common_ancestors', 'networkx.algorithms.isolate', 'networkx.algorithms.matching', 'networkx.algorithms.minors', 'networkx.algorithms.mis', 'networkx.algorithms.operators', 'networkx.algorithms.operators.all', 'networkx.algorithms.operators.binary', 'networkx.algorithms.operators.product', 'networkx.algorithms.operators.unary', 'networkx.algorithms.planarity', 'networkx.algorithms.reciprocity', 'networkx.algorithms.richclub', 'networkx.algorithms.shortest_paths', 'networkx.algorithms.shortest_paths.generic', 'networkx.algorithms.shortest_paths.unweighted', 'networkx.algorithms.shortest_paths.weighted', 'networkx.algorithms.shortest_paths.astar', 'networkx.algorithms.shortest_paths.dense', 'networkx.algorithms.similarity', 'networkx.algorithms.simple_paths', 'networkx.algorithms.smallworld', 'networkx.algorithms.smetric', 'networkx.algorithms.structuralholes', 'networkx.algorithms.sparsifiers', 'networkx.algorithms.swap', 'networkx.algorithms.traversal', 'networkx.algorithms.traversal.beamsearch', 'networkx.algorithms.traversal.breadth_first_search', 'networkx.algorithms.traversal.depth_first_search', 'networkx.algorithms.traversal.edgedfs', 'networkx.algorithms.traversal.edgebfs', 'networkx.algorithms.triads', 'networkx.algorithms.vitality', 'networkx.algorithms.voronoi', 'networkx.algorithms.wiener', 'networkx.algorithms.bipartite', 'networkx.algorithms.bipartite.basic', 'networkx.algorithms.bipartite.centrality', 'networkx.algorithms.bipartite.cluster', 'networkx.algorithms.bipartite.covering', 'networkx.algorithms.bipartite.matching', 'networkx.algorithms.bipartite.edgelist', 'networkx.algorithms.bipartite.matrix', 'networkx.algorithms.bipartite.projection', 'networkx.algorithms.bipartite.redundancy', 'networkx.algorithms.bipartite.spectral', 'networkx.algorithms.bipartite.generators', 'networkx.algorithms.node_classification', 'networkx.algorithms.node_classification.hmn', 'networkx.algorithms.node_classification.utils', 'networkx.algorithms.node_classification.lgc', 'networkx.algorithms.connectivity', 'networkx.algorithms.connectivity.connectivity', 'networkx.algorithms.flow', 'networkx.algorithms.flow.maxflow', 'networkx.algorithms.flow.boykovkolmogorov', 'networkx.algorithms.flow.utils', 'networkx.algorithms.flow.dinitz_alg', 'networkx.algorithms.flow.edmondskarp', 'networkx.algorithms.flow.preflowpush', 'networkx.algorithms.flow.shortestaugmentingpath', 'networkx.algorithms.flow.mincost', 'networkx.algorithms.flow.gomory_hu', 'networkx.algorithms.flow.capacityscaling', 'networkx.algorithms.flow.networksimplex', 'networkx.algorithms.connectivity.utils', 'networkx.algorithms.connectivity.cuts', 'networkx.algorithms.connectivity.edge_augmentation', 'networkx.algorithms.connectivity.edge_kcomponents', 'networkx.algorithms.connectivity.disjoint_paths', 'networkx.algorithms.connectivity.kcomponents', 'networkx.algorithms.connectivity.kcutsets', 'networkx.algorithms.connectivity.stoerwagner', 'networkx.algorithms.community', 'networkx.algorithms.community.asyn_fluid', 'networkx.algorithms.community.centrality', 'networkx.algorithms.community.community_generators', 'networkx.algorithms.community.kclique', 'networkx.algorithms.community.kernighan_lin', 'networkx.algorithms.community.community_utils', 'networkx.algorithms.community.label_propagation', 'networkx.algorithms.community.modularity_max', 'networkx.algorithms.community.quality', 'networkx.utils.mapped_queue', 'networkx.algorithms.isomorphism', 'networkx.algorithms.isomorphism.isomorph', 'networkx.algorithms.isomorphism.vf2userfunc', 'networkx.algorithms.isomorphism.isomorphvf2', 'networkx.algorithms.isomorphism.matchhelpers', 'networkx.algorithms.isomorphism.temporalisomorphvf2', 'networkx.algorithms.tournament', 'networkx.algorithms.tree', 'networkx.algorithms.tree.branchings', 'networkx.algorithms.tree.recognition', 'networkx.algorithms.tree.coding', 'networkx.algorithms.tree.mst', 'networkx.algorithms.tree.operations', 'networkx.generators.joint_degree_seq', 'networkx.generators.lattice', 'networkx.generators.line', 'networkx.generators.mycielski', 'networkx.generators.nonisomorphic_trees', 'networkx.generators.random_clustered', 'networkx.generators.random_graphs', 'networkx.generators.small', 'networkx.generators.social', 'networkx.generators.spectral_graph_forge', 'networkx.generators.stochastic', 'networkx.generators.triads', 'networkx.readwrite', 'networkx.readwrite.adjlist', 'networkx.readwrite.multiline_adjlist', 'networkx.readwrite.edgelist', 'networkx.readwrite.gpickle', 'networkx.readwrite.pajek', 'networkx.readwrite.leda', 'networkx.readwrite.sparse6', 'networkx.readwrite.graph6', 'networkx.readwrite.nx_yaml', 'networkx.readwrite.gml', 'html', 'html.entities', 'networkx.readwrite.graphml', 'xml', 'xml.etree', 'xml.etree.cElementTree', 'xml.etree.ElementTree', 'xml.etree.ElementPath', 'pyexpat.errors', 'pyexpat.model', 'pyexpat', '_elementtree', 'networkx.readwrite.gexf', 'networkx.readwrite.nx_shp', 'networkx.readwrite.json_graph', 'networkx.readwrite.json_graph.node_link', 'networkx.readwrite.json_graph.adjacency', 'networkx.readwrite.json_graph.tree', 'networkx.readwrite.json_graph.jit', 'networkx.readwrite.json_graph.cytoscape', 'networkx.linalg', 'networkx.linalg.attrmatrix', 'networkx.linalg.spectrum', 'networkx.linalg.graphmatrix', 'networkx.linalg.laplacianmatrix', 'networkx.linalg.algebraicconnectivity', 'scipy.sparse.linalg', 'scipy.sparse.linalg.isolve', 'scipy.sparse.linalg.isolve.iterative', 'scipy.sparse.linalg.isolve._iterative', 'scipy.sparse.linalg.interface', 'scipy.sparse.linalg.isolve.utils', 'scipy._lib._threadsafety', 'scipy.sparse.linalg.isolve.minres', 'scipy.sparse.linalg.isolve.lgmres', 'scipy.sparse.linalg.isolve._gcrotmk', 'scipy.sparse.linalg.isolve.lsqr', 'scipy.sparse.linalg.isolve.lsmr', 'scipy.sparse.linalg.dsolve', 'scipy.sparse.linalg.dsolve.linsolve', 'scipy.sparse.linalg.dsolve._superlu', 'scipy.sparse.linalg.dsolve._add_newdocs', 'scipy.sparse.linalg.eigen', 'scipy.sparse.linalg.eigen.arpack', 'scipy.sparse.linalg.eigen.arpack.arpack', 'scipy.sparse.linalg.eigen.arpack._arpack', 'scipy.sparse.linalg.eigen.lobpcg', 'scipy.sparse.linalg.eigen.lobpcg.lobpcg', 'scipy.sparse.linalg.matfuncs', 'scipy.sparse.linalg._onenormest', 'scipy.sparse.linalg._norm', 'scipy.sparse.linalg._expm_multiply', 'networkx.linalg.modularitymatrix', 'networkx.tests', 'networkx.tests.test', 'networkx.drawing', 'networkx.drawing.layout', 'networkx.drawing.nx_pylab', 'networkx.drawing.nx_agraph', 'networkx.drawing.nx_pydot', 'pkg_resources', 'zipfile', 'plistlib', 'xml.parsers', 'xml.parsers.expat', 'xml.parsers.expat.model', 'xml.parsers.expat.errors', 'pkg_resources.extern', 'pkg_resources._vendor', 'pkg_resources.extern.six', 'pkg_resources._vendor.six', 'pkg_resources.extern.six.moves', 'pkg_resources._vendor.six.moves', 'pkg_resources.py31compat', 'pkg_resources.extern.appdirs', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources.extern.packaging', 'pkg_resources.extern.packaging.version', 'pkg_resources.extern.packaging._structures', 'pkg_resources.extern.packaging.specifiers', 'pkg_resources.extern.packaging._compat', 'pkg_resources.extern.packaging.requirements', 'pkg_resources.extern.pyparsing', 'pkg_resources.extern.six.moves.urllib', 'pkg_resources.extern.packaging.markers', 'qiskit.dagcircuit.exceptions', 'qiskit.transpiler.propertyset', 'qiskit.transpiler.basepasses', 'qiskit.transpiler.fencedobjs', 'qiskit.transpiler.exceptions', 'qiskit.transpiler.transpiler', 'qiskit.mapper', 'qiskit.mapper.compiling', 'qiskit.mapper.exceptions', 'qiskit.mapper.coupling', 'qiskit.mapper.layout', 'qiskit.mapper.mapping', 'qiskit.extensions', 'qiskit.extensions.standard', 'qiskit.extensions.standard.barrier', 'qiskit.extensions.standard.ccx', 'qiskit.extensions.standard.h', 'qiskit.extensions.standard.u2', 'qiskit.extensions.standard.u3', 'qiskit.extensions.standard.ubase', 'qiskit.extensions.standard.cx', 'qiskit.extensions.standard.cxbase', 'qiskit.extensions.standard.t', 'qiskit.extensions.standard.u1', 'qiskit.extensions.standard.cswap', 'qiskit.extensions.standard.cy', 'qiskit.extensions.standard.s', 'qiskit.extensions.standard.cz', 'qiskit.extensions.standard.swap', 'qiskit.extensions.standard.iden', 'qiskit.extensions.standard.u0', 'qiskit.extensions.standard.x', 'qiskit.extensions.standard.y', 'qiskit.extensions.standard.z', 'qiskit.extensions.standard.rx', 'qiskit.extensions.standard.ry', 'qiskit.extensions.standard.rz', 'qiskit.extensions.standard.cu1', 'qiskit.extensions.standard.ch', 'qiskit.extensions.standard.crz', 'qiskit.extensions.standard.cu3', 'qiskit.extensions.standard.rzz', 'qiskit.converters', 'qiskit.converters.qobj_to_circuits', 'qiskit.converters.circuits_to_qobj', 'qiskit.converters.circuit_to_dag', 'qiskit.converters.dag_to_circuit', 'qiskit.converters.ast_to_dag', 'qiskit.transpiler.passes', 'qiskit.transpiler.passes.unroller', 'qiskit.transpiler.passes.cx_cancellation', 'qiskit.transpiler.passes.fixed_point', 'qiskit.transpiler.passes.optimize_1q_gates', 'qiskit.quantum_info', 'qiskit.quantum_info.operators', 'qiskit.quantum_info.operators.pauli', 'qiskit.quantum_info.states', 'qiskit.quantum_info.states._states', 'qiskit.quantum_info.states._measures', 'qiskit.quantum_info.operators._measures', 'qiskit.quantum_info.operators.quaternion', 'qiskit.transpiler.passes.decompose', 'qiskit.transpiler.passes.unroll_3q_or_more', 'qiskit.transpiler.passes.commutation_analysis', 'qiskit.transpiler.passes.mapping', 'qiskit.transpiler.passes.mapping.barrier_before_final_measurements', 'qiskit.transpiler.passes.mapping.check_map', 'qiskit.transpiler.passes.mapping.check_cnot_direction', 'qiskit.transpiler.passes.mapping.cx_direction', 'qiskit.transpiler.passes.mapping.trivial_layout', 'qiskit.transpiler.passes.mapping.dense_layout', 'qiskit.transpiler.passes.mapping.extend_layout', 'qiskit.transpiler.passes.mapping.basic_swap', 'qiskit.transpiler.passes.mapping.lookahead_swap', 'qiskit.transpiler.passes.mapping.stochastic_swap', 'qiskit.transpiler.passes.mapping.cython', 'qiskit.transpiler.passes.mapping.cython.stochastic_swap', 'qiskit.transpiler.passes.mapping.cython.stochastic_swap.utils', 'qiskit.transpiler.passes.mapping.cython.stochastic_swap._swap_trial', 'qiskit.transpiler.passes.mapping.enlarge_with_ancilla', 'qiskit.execute', 'qiskit.extensions.quantum_initializer', 'qiskit.extensions.quantum_initializer._initializer', 'qiskit.providers', 'qiskit.providers.basebackend', 'qiskit.version', 'qiskit.providers.models', 'qiskit.providers.models.backendconfiguration', 'qiskit.providers.models.backendproperties', 'qiskit.providers.models.backendstatus', 'qiskit.providers.models.jobstatus', 'qiskit.providers.models.pulsedefaults', 'qiskit.providers.baseprovider', 'qiskit.providers.exceptions', 'qiskit.providers.basejob', 'qiskit.providers.jobstatus', 'qiskit.providers.basicaer', 'qiskit.providers.basicaer.basicaerprovider', 'qiskit.providers.providerutils', 'qiskit.providers.basicaer.qasm_simulator', 'qiskit.result', 'qiskit.result.result', 'qiskit.result.postprocess', 'qiskit.result.models', 'qiskit.validation.validate', 'qiskit.result.exceptions', 'qiskit.providers.basicaer.basicaerjob', 'concurrent', 'concurrent.futures', 'concurrent.futures._base', 'concurrent.futures.process', 'queue', 'multiprocessing.connection', '_multiprocessing', 'multiprocessing.util', 'concurrent.futures.thread', 'qiskit.providers.basicaer.exceptions', 'qiskit.providers.basicaer._basicaertools', 'qiskit.providers.basicaer.statevector_simulator', 'qiskit.providers.basicaer.unitary_simulator', 'qiskit.aqua', 'qiskit.aqua.aqua_error', 'qiskit.aqua.preferences', 'qiskit.aqua._discover', 'qiskit.aqua.utils', 'qiskit.aqua.utils.tensorproduct', 'qiskit.aqua.utils.pauligraph', 'qiskit.aqua.utils.jsonutils', 'qiskit.aqua.utils.random_matrix_generator', 'qiskit.aqua.utils.decimal_to_binary', 'qiskit.aqua.utils.summarize_circuits', 'qiskit.aqua.utils.mct', 'qiskit.aqua.utils.mcu1', 'sympy.combinatorics', 'sympy.combinatorics.permutations', 'sympy.combinatorics.prufer', 'sympy.combinatorics.generators', 'sympy.combinatorics.subsets', 'sympy.combinatorics.graycode', 'sympy.combinatorics.partitions', 'sympy.combinatorics.polyhedron', 'sympy.combinatorics.perm_groups', 'sympy.combinatorics.util', 'sympy.utilities.randtest', 'sympy.combinatorics.group_constructs', 'sympy.combinatorics.named_groups', 'qiskit.aqua.utils.controlledcircuit', 'qiskit.aqua.utils.mcu3', 'qiskit.aqua.utils.mcmt', 'qiskit.aqua.utils.subsystem', 'qiskit.tools.qi', 'qiskit.tools.qi.qi', 'qiskit.aqua.utils.entangler_map', 'qiskit.aqua.utils.dataset_helper', 'sklearn', 'sklearn._config', 'sklearn.__check_build', 'sklearn.__check_build._check_build', 'sklearn.base', 'sklearn.externals', 'sklearn.externals.six', 'sklearn.externals.six.moves', 'sklearn.externals.six.moves.urllib_parse', 'sklearn.externals.six.moves.urllib.parse', 'sklearn.externals.six.moves.urllib_error', 'sklearn.externals.six.moves.urllib.error', 'sklearn.externals.six.moves.urllib_request', 'sklearn.externals.six.moves.urllib.request', 'sklearn.externals.six.moves.urllib_response', 'sklearn.externals.six.moves.urllib.response', 'sklearn.externals.six.moves.urllib_robotparser', 'sklearn.externals.six.moves.urllib.robotparser', 'sklearn.externals.six.moves.urllib', 'sklearn.utils', 'sklearn.utils.murmurhash', 'sklearn.utils.class_weight', 'sklearn.utils._joblib', 'sklearn.externals.joblib', 'sklearn.externals.joblib.memory', 'pydoc', 'sklearn.externals.joblib.hashing', 'sklearn.externals.joblib._compat', 'sklearn.externals.joblib.func_inspect', 'sklearn.externals.joblib.logger', 'sklearn.externals.joblib.disk', 'sklearn.externals.joblib._memory_helpers', 'sklearn.externals.joblib._store_backends', 'sklearn.externals.joblib.backports', 'sklearn.externals.joblib.numpy_pickle', 'sklearn.externals.joblib.compressor', 'sklearn.externals.joblib.numpy_pickle_utils', 'sklearn.externals.joblib.numpy_pickle_compat', 'sklearn.externals.joblib.parallel', 'sklearn.externals.joblib._multiprocessing_helpers', 'multiprocessing.synchronize', 'multiprocessing.semaphore_tracker', 'multiprocessing.spawn', 'runpy', 'sklearn.externals.joblib.format_stack', 'sklearn.externals.joblib.my_exceptions', 'sklearn.externals.joblib._parallel_backends', 'sklearn.externals.joblib.pool', 'sklearn.externals.joblib._memmapping_reducer', 'mmap', 'multiprocessing.pool', 'sklearn.externals.joblib.executor', 'sklearn.externals.joblib.externals', 'sklearn.externals.joblib.externals.loky', 'sklearn.externals.joblib.externals.loky._base', 'sklearn.externals.joblib.externals.loky.backend', 'sklearn.externals.joblib.externals.loky.backend.context', 'sklearn.externals.joblib.externals.loky.backend.process', 'sklearn.externals.joblib.externals.loky.backend.compat', 'sklearn.externals.joblib.externals.loky.backend.compat_posix', 'sklearn.externals.joblib.externals.loky.backend.reduction', 'sklearn.externals.joblib.externals.loky.backend._posix_reduction', 'sklearn.externals.joblib.externals.cloudpickle', 'sklearn.externals.joblib.externals.cloudpickle.cloudpickle', 'sklearn.externals.joblib.externals.loky.reusable_executor', 'sklearn.externals.joblib.externals.loky.process_executor', 'sklearn.externals.joblib.externals.loky.backend.queues', 'multiprocessing.queues', 'sklearn.externals.joblib.externals.loky.backend.utils', 'sklearn.externals.joblib.externals.loky.cloudpickle_wrapper', 'sklearn.exceptions', 'sklearn.utils.fixes', 'sklearn.utils.deprecation', 'sklearn.utils.validation', 'sklearn.utils._show_versions', 'sklearn.decomposition', 'sklearn.decomposition.nmf', 'sklearn.utils.extmath', 'sklearn.utils._logistic_sigmoid', '_cython_0_28_5', 'sklearn.utils.sparsefuncs_fast', 'sklearn.decomposition.cdnmf_fast', 'sklearn.decomposition.pca', 'sklearn.decomposition.base', 'sklearn.decomposition.incremental_pca', 'sklearn.decomposition.kernel_pca', 'sklearn.preprocessing', 'sklearn.preprocessing._function_transformer', 'sklearn.utils.testing', 'scipy.io', 'scipy.io.matlab', 'scipy.io.matlab.mio', 'scipy.io.matlab.miobase', 'scipy.misc', 'scipy.misc.doccer', 'scipy.misc.common', 'scipy.interpolate', 'scipy.interpolate.interpolate', 'scipy.interpolate.fitpack', 'scipy.interpolate._fitpack_impl', 'scipy.interpolate._fitpack', 'scipy.interpolate.dfitpack', 'scipy.interpolate._bsplines', 'scipy.interpolate._bspl', 'scipy.interpolate.polyint', 'scipy.interpolate._ppoly', 'scipy.interpolate.fitpack2', 'scipy.interpolate.interpnd', 'scipy.interpolate.rbf', 'scipy.interpolate._cubic', 'scipy.interpolate.ndgriddata', 'scipy.interpolate._pade', 'scipy.misc.pilutil', 'PIL', 'PIL._version', 'PIL.Image', 'PIL._util', 'PIL.ImageMode', 'PIL._binary', 'PIL._imaging', 'PIL.ImageFilter', 'scipy.io.matlab.byteordercodes', 'scipy.io.matlab.mio4', 'scipy.io.matlab.mio_utils', 'scipy.io.matlab.mio5', 'scipy.io.matlab.mio5_utils', 'scipy.io.matlab.streams', 'scipy.io.matlab.mio5_params', 'scipy.io.netcdf', 'scipy.io._fortran', 'scipy.io.mmio', 'scipy.io.idl', 'scipy.io.harwell_boeing', 'scipy.io.harwell_boeing.hb', 'scipy.io.harwell_boeing._fortran_format_parser', 'sklearn.utils._unittest_backport', 'sklearn.preprocessing.data', 'scipy.stats', 'scipy.stats.stats', 'scipy.stats.distributions', 'scipy.stats._distn_infrastructure', 'scipy.stats._distr_params', 'scipy.optimize', 'scipy.optimize.optimize', 'scipy.optimize.linesearch', 'scipy.optimize.minpack2', 'scipy.optimize._minimize', 'scipy.optimize._trustregion_dogleg', 'scipy.optimize._trustregion', 'scipy.optimize._trustregion_ncg', 'scipy.optimize._trustregion_krylov', 'scipy.optimize._trlib', 'scipy.optimize._trlib._trlib', 'scipy.optimize._trustregion_exact', 'scipy.optimize._trustregion_constr', 'scipy.optimize._trustregion_constr.minimize_trustregion_constr', 'scipy.optimize._differentiable_functions', 'scipy.optimize._numdiff', 'scipy.optimize._group_columns', 'scipy.optimize._hessian_update_strategy', 'scipy.optimize._constraints', 'scipy.optimize._trustregion_constr.equality_constrained_sqp', 'scipy.optimize._trustregion_constr.projections', 'scipy.optimize._trustregion_constr.qp_subproblem', 'scipy.optimize._trustregion_constr.canonical_constraint', 'scipy.optimize._trustregion_constr.tr_interior_point', 'scipy.optimize._trustregion_constr.report', 'scipy.optimize.lbfgsb', 'scipy.optimize._lbfgsb', 'scipy.optimize.tnc', 'scipy.optimize.moduleTNC', 'scipy.optimize.cobyla', 'scipy.optimize._cobyla', 'scipy.optimize.slsqp', 'scipy.optimize._slsqp', 'scipy.optimize._root', 'scipy.optimize.minpack', 'scipy.optimize._minpack', 'scipy.optimize._lsq', 'scipy.optimize._lsq.least_squares', 'scipy.optimize._lsq.trf', 'scipy.optimize._lsq.common', 'scipy.optimize._lsq.dogbox', 'scipy.optimize._lsq.lsq_linear', 'scipy.optimize._lsq.trf_linear', 'scipy.optimize._lsq.givens_elimination', 'scipy.optimize._lsq.bvls', 'scipy.optimize._spectral', 'scipy.optimize.nonlin', 'scipy.optimize._root_scalar', 'scipy.optimize.zeros', 'scipy.optimize._zeros', 'scipy.optimize.nnls', 'scipy.optimize._nnls', 'scipy.optimize._basinhopping', 'scipy.optimize._linprog', 'scipy.optimize._linprog_ip', 'scipy.optimize._linprog_simplex', 'scipy.optimize._linprog_util', 'scipy.optimize._remove_redundancy', 'scipy.optimize._hungarian', 'scipy.optimize._differentialevolution', 'scipy.optimize._shgo', 'scipy.optimize._shgo_lib', 'scipy.optimize._shgo_lib.sobol_seq', 'scipy.optimize._shgo_lib.triangulation', 'scipy.optimize._dual_annealing', 'scipy.integrate', 'scipy.integrate.quadrature', 'scipy.integrate.odepack', 'scipy.integrate._odepack', 'scipy.integrate.quadpack', 'scipy.integrate._quadpack', 'scipy.integrate._ode', 'scipy.integrate.vode', 'scipy.integrate._dop', 'scipy.integrate.lsoda', 'scipy.integrate._bvp', 'scipy.integrate._ivp', 'scipy.integrate._ivp.ivp', 'scipy.integrate._ivp.bdf', 'scipy.integrate._ivp.common', 'scipy.integrate._ivp.base', 'scipy.integrate._ivp.radau', 'scipy.integrate._ivp.rk', 'scipy.integrate._ivp.lsoda', 'scipy.stats._constants', 'scipy.stats._continuous_distns', 'scipy.stats._stats', 'scipy.stats._tukeylambda_stats', 'scipy.stats._discrete_distns', 'scipy.stats.mstats_basic', 'scipy.stats._stats_mstats_common', 'scipy.stats._rvs_sampling', 'scipy.stats.morestats', 'scipy.stats.statlib', 'scipy.stats.contingency', 'scipy.stats._binned_statistic', 'scipy.stats.kde', 'scipy.stats.mvn', 'scipy.stats.mstats', 'scipy.stats.mstats_extras', 'scipy.stats._multivariate', 'sklearn.utils.sparsefuncs', 'sklearn.preprocessing._encoders', 'sklearn.preprocessing.base', 'sklearn.preprocessing.label', 'sklearn.utils.multiclass', 'sklearn.preprocessing._discretization', 'sklearn.preprocessing.imputation', 'sklearn.metrics', 'sklearn.metrics.ranking', 'sklearn.metrics.base', 'sklearn.metrics.classification', 'sklearn.metrics.cluster', 'sklearn.metrics.cluster.supervised', 'sklearn.metrics.cluster.expected_mutual_info_fast', 'sklearn.utils.lgamma', 'sklearn.metrics.cluster.unsupervised', 'sklearn.metrics.pairwise', 'sklearn.metrics.pairwise_fast', 'sklearn.metrics.cluster.bicluster', 'sklearn.utils.linear_assignment_', 'sklearn.metrics.regression', 'sklearn.metrics.scorer', 'sklearn.decomposition.sparse_pca', 'sklearn.linear_model', 'sklearn.linear_model.base', 'sklearn.utils.seq_dataset', 'sklearn.linear_model.bayes', 'sklearn.linear_model.least_angle', 'sklearn.utils.arrayfuncs', 'sklearn.model_selection', 'sklearn.model_selection._split', 'sklearn.model_selection._validation', 'sklearn.utils.metaestimators', 'sklearn.model_selection._search', 'sklearn.utils.random', 'sklearn.utils._random', 'sklearn.linear_model.coordinate_descent', 'sklearn.linear_model.cd_fast', 'sklearn.linear_model.huber', 'sklearn.linear_model.sgd_fast', 'sklearn.utils.weight_vector', 'sklearn.linear_model.stochastic_gradient', 'sklearn.linear_model.ridge', 'sklearn.linear_model.sag', 'sklearn.linear_model.sag_fast', 'sklearn.linear_model.logistic', 'sklearn.svm', 'sklearn.svm.classes', 'sklearn.svm.base', 'sklearn.svm.libsvm', 'sklearn.svm.liblinear', 'sklearn.svm.libsvm_sparse', 'sklearn.svm.bounds', 'sklearn.utils.optimize', 'sklearn.linear_model.omp', 'sklearn.linear_model.passive_aggressive', 'sklearn.linear_model.perceptron', 'sklearn.linear_model.randomized_l1', 'sklearn.feature_selection', 'sklearn.feature_selection.univariate_selection', 'sklearn.feature_selection.base', 'sklearn.feature_selection.variance_threshold', 'sklearn.feature_selection.rfe', 'sklearn.feature_selection.from_model', 'sklearn.feature_selection.mutual_info_', 'sklearn.neighbors', 'sklearn.neighbors.ball_tree', 'sklearn.neighbors.dist_metrics', 'sklearn.neighbors.typedefs', 'sklearn.neighbors.kd_tree', 'sklearn.neighbors.graph', 'sklearn.neighbors.base', 'sklearn.neighbors.unsupervised', 'sklearn.neighbors.classification', 'sklearn.neighbors.regression', 'sklearn.neighbors.nearest_centroid', 'sklearn.neighbors.kde', 'sklearn.neighbors.approximate', 'sklearn.random_projection', 'sklearn.neighbors.lof', 'sklearn.linear_model.ransac', 'sklearn.linear_model.theil_sen', 'sklearn.decomposition.dict_learning', 'sklearn.decomposition.truncated_svd', 'sklearn.decomposition.fastica_', 'sklearn.decomposition.factor_analysis', 'sklearn.decomposition.online_lda', 'sklearn.decomposition._online_lda', 'qiskit.aqua.utils.qpsolver', 'cvxopt', 'cvxopt.base', 'cvxopt.printing', 'cvxopt.solvers', 'cvxopt.cvxprog', 'cvxopt.coneprog', 'cvxopt.blas', 'cvxopt.lapack', 'cvxopt._version', 'qiskit.aqua.utils.circuit_factory', 'qiskit.aqua.utils.run_circuits', 'qiskit.aqua.utils.backend_utils', 'qiskit.aqua.utils.circuit_cache', 'qiskit.aqua.utils.boolean_logic', 'dlx', 'qiskit.aqua.pluggable', 'qiskit.aqua.parser', 'qiskit.aqua.parser.jsonschema', 'qiskit.aqua.parser.base_parser', 'qiskit.aqua.quantum_instance', 'qiskit.aqua.operator', 'qiskit.aqua.algorithms', 'qiskit.aqua.algorithms.quantum_algorithm', 'qiskit.aqua.algorithms.adaptive', 'qiskit.aqua.algorithms.adaptive.vqe', 'qiskit.aqua.algorithms.adaptive.vqe.vqe', 'qiskit.aqua.algorithms.adaptive.vqalgorithm', 'qiskit.aqua.algorithms.adaptive.qaoa', 'qiskit.aqua.algorithms.adaptive.qaoa.qaoa', 'qiskit.aqua.algorithms.adaptive.qaoa.varform', 'qiskit.aqua.algorithms.adaptive.qsvm', 'qiskit.aqua.algorithms.adaptive.qsvm.cost_helpers', 'qiskit.aqua.algorithms.adaptive.qsvm.qsvm_variational', 'qiskit.aqua.algorithms.classical', 'qiskit.aqua.algorithms.classical.exacteigensolver', 'qiskit.aqua.algorithms.classical.exacteigensolver.exacteigensolver', 'qiskit.aqua.algorithms.classical.svm', 'qiskit.aqua.algorithms.classical.svm._svm_classical_abc', 'qiskit.aqua.algorithms.classical.svm._svm_classical_binary', 'qiskit.aqua.algorithms.classical.svm._svm_classical_multiclass', 'qiskit.aqua.algorithms.classical.svm._rbf_svc_estimator', 'qiskit.aqua.components', 'qiskit.aqua.components.multiclass_extensions', 'qiskit.aqua.components.multiclass_extensions.estimator', 'qiskit.aqua.components.multiclass_extensions.multiclass_extension', 'qiskit.aqua.algorithms.classical.svm.svm_classical', 'qiskit.aqua.algorithms.many_sample', 'qiskit.aqua.algorithms.many_sample.eoh', 'qiskit.aqua.algorithms.many_sample.eoh.eoh', 'qiskit.aqua.algorithms.many_sample.qsvm', 'qiskit.aqua.algorithms.many_sample.qsvm._qsvm_kernel_abc', 'qiskit.aqua.algorithms.many_sample.qsvm._qsvm_kernel_binary', 'qiskit.aqua.algorithms.many_sample.qsvm._qsvm_kernel_multiclass', 'qiskit.aqua.algorithms.many_sample.qsvm._qsvm_kernel_estimator', 'qiskit.aqua.algorithms.many_sample.qsvm.qsvm_kernel', 'qiskit.aqua.algorithms.single_sample', 'qiskit.aqua.algorithms.single_sample.qpe', 'qiskit.aqua.algorithms.single_sample.qpe.phase_estimation_circuit', 'qiskit.aqua.algorithms.single_sample.grover', 'qiskit.aqua.algorithms.single_sample.grover.grover', 'qiskit.aqua.components.initial_states', 'qiskit.aqua.components.initial_states.initial_state', 'qiskit.aqua.components.initial_states.custom', 'qiskit.aqua.components.initial_states.varformbased', 'qiskit.aqua.components.initial_states.zero', 'qiskit.aqua.algorithms.single_sample.iqpe', 'qiskit.aqua.algorithms.single_sample.iqpe.iqpe', 'qiskit.aqua.algorithms.single_sample.qpe.qpe', 'qiskit.aqua.algorithms.single_sample.ae', 'qiskit.aqua.algorithms.single_sample.ae.ae', 'qiskit.aqua.components.iqfts', 'qiskit.aqua.components.iqfts.iqft', 'qiskit.aqua.components.iqfts.standard', 'qiskit.aqua.components.qfts', 'qiskit.aqua.components.qfts.qft', 'qiskit.aqua.components.qfts.standard', 'qiskit.aqua.components.qfts.approximate', 'qiskit.aqua.components.iqfts.approximate', 'qiskit.aqua.algorithms.single_sample.ae.q_factory', 'qiskit.aqua.algorithms.single_sample.ae.s_psi_0_reflection', 'qiskit.aqua.utils.circuit_utils', 'qiskit.aqua.algorithms.single_sample.ae.s_0_reflection', 'qiskit.aqua.algorithms.single_sample.simon', 'qiskit.aqua.algorithms.single_sample.simon.simon', 'qiskit.aqua.algorithms.single_sample.dj', 'qiskit.aqua.algorithms.single_sample.dj.deutsch_jozsa', 'qiskit.aqua.algorithms.single_sample.bv', 'qiskit.aqua.algorithms.single_sample.bv.bernstein_vazirani', 'qiskit.aqua.algorithms.single_sample.hhl', 'qiskit.aqua.algorithms.single_sample.hhl.hhl', 'qiskit.tools.qcvv', 'qiskit.tools.qcvv.tomography', 'qiskit.aqua.qiskit_aqua', 'qiskit.aqua.parser._inputparser', 'qiskit.aqua._logging', 'logging.config', 'logging.handlers', 'socketserver', 'qiskit.aqua.components.variational_forms', 'qiskit.aqua.components.variational_forms.variational_form', 'qiskit.aqua.components.variational_forms.ry', 'qiskit.aqua.components.variational_forms.ryrz', 'qiskit.aqua.components.variational_forms.swaprz', 'qiskit.aqua.components.optimizers', 'qiskit.aqua.components.optimizers.optimizer', 'qiskit.aqua.components.optimizers.cg', 'qiskit.aqua.components.optimizers.cobyla', 'qiskit.aqua.components.optimizers.l_bfgs_b', 'qiskit.aqua.components.optimizers.nelder_mead', 'qiskit.aqua.components.optimizers.p_bfgs', 'qiskit.aqua.components.optimizers.powell', 'qiskit.aqua.components.optimizers.slsqp', 'qiskit.aqua.components.optimizers.spsa', 'qiskit.aqua.components.optimizers.tnc', 'qiskit.aqua.components.optimizers.aqgd', 'qiskit.aqua.components.optimizers.aqgd_ourg', 'qiskit.chemistry', 'qiskit.chemistry.qiskit_chemistry_error', 'qiskit.chemistry.qmolecule', 'h5py', 'h5py._errors', 'h5py._hl', 'h5py._hl.compat', 'h5py._conv', 'h5py.h5r', 'h5py._objects', 'h5py.defs', 'h5py.h5t', 'h5py.utils', 'h5py.h5', 'h5py.h5py_warnings', 'h5py.h5z', 'h5py.h5a', 'h5py.h5s', 'h5py.h5p', 'h5py.h5ac', 'h5py._proxy', 'h5py.h5d', 'h5py.h5ds', 'h5py.h5f', 'h5py.h5g', 'h5py.h5i', 'h5py.h5fd', 'h5py._hl.filters', 'h5py._hl.base', 'h5py._hl.files', 'h5py._hl.group', 'h5py.h5o', 'h5py.h5l', 'h5py._hl.dataset', 'h5py._hl.selections', 'h5py._hl.selections2', 'h5py._hl.datatype', 'h5py._hl.vds', 'h5py.version', 'h5py._hl.attrs', 'qiskit.chemistry.qiskit_chemistry_problem', 'qiskit.chemistry.qiskit_chemistry', 'qiskit.chemistry.drivers', 'qiskit.chemistry.drivers._basedriver', 'qiskit.chemistry.drivers._discover_driver', 'qiskit.chemistry.drivers.gaussiand', 'qiskit.chemistry.drivers.gaussiand.gaussiandriver', 'qiskit.chemistry.drivers.hdf5d', 'qiskit.chemistry.drivers.hdf5d.hdf5driver', 'qiskit.chemistry.drivers.psi4d', 'qiskit.chemistry.drivers.psi4d.psi4driver', 'qiskit.chemistry.drivers.pyquanted', 'qiskit.chemistry.drivers.pyquanted.transform', 'qiskit.chemistry.drivers.pyquanted.pyquantedriver', 'qiskit.chemistry.drivers.pyquanted.integrals', 'pyquante2', 'pyquante2.basis', 'pyquante2.basis.basisset', 'pyquante2.settings', 'pyquante2.basis.data', 'pyquante2.basis.cgbf', 'pyquante2.basis.tools', 'pyquante2.basis.pgbf', 'pyquante2.utils', 'pyquante2.dft', 'pyquante2.dft.dft', 'pyquante2.dft.functionals', 'pyquante2.geo', 'pyquante2.geo.molecule', 'pyquante2.geo.atom', 'pyquante2.geo.elements', 'pyquante2.constants', 'pyquante2.geo.samples', 'pyquante2.graphics', 'pyquante2.graphics.vtkplot', 'pyquante2.grid', 'pyquante2.grid.grid', 'pyquante2.grid.atomic_grid', 'pyquante2.grid.lebedev', '_cython_0_25_2', 'pyquante2.cbecke', 'pyquante2.grid.data', 'pyquante2.ints', 'pyquante2.ints.one', 'pyquante2.ints.integrals', 'pyquante2.ctwo', 'pyquante2.cone', 'pyquante2.pt', 'pyquante2.pt.mp2', 'pyquante2.scf', 'pyquante2.scf.hamiltonians', 'pyquante2.scf.iterators', 'matplotlib', 'matplotlib.cbook', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib._color_data', 'cycler', 'matplotlib._version']
+DEBUG:matplotlib:CACHEDIR=/Users/liup/.matplotlib
+DEBUG:matplotlib.font_manager:Using fontManager instance from /Users/liup/.matplotlib/fontlist-v300.json
+DEBUG:matplotlib.pyplot:Loaded backend MacOSX version unknown.
+DEBUG:qiskit.aqua.parser.jsonschema:Input: {
+    "hdf5_input": "/Users/liup/quantum/qiskit-chemistry/test/test_driver_hdf5.hdf5"
+}
+DEBUG:qiskit.aqua.parser.jsonschema:Input Schema: {
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "hdf5_schema",
+    "properties": {
+        "hdf5_input": {
+            "default": "molecule.hdf5",
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
+DEBUG:qiskit.aqua.parser.jsonschema:Input: {
+    "freeze_core": false,
+    "max_workers": 4,
+    "orbital_reduction": [],
+    "qubit_mapping": "parity",
+    "transformation": "full",
+    "two_qubit_reduction": true
+}
+DEBUG:qiskit.aqua.parser.jsonschema:Input Schema: {
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "hamiltonian_schema",
+    "properties": {
+        "freeze_core": {
+            "default": false,
+            "type": "boolean"
+        },
+        "max_workers": {
+            "default": 4,
+            "minimum": 1,
+            "type": "integer"
+        },
+        "orbital_reduction": {
+            "default": [],
+            "items": {
+                "type": "number"
+            },
+            "type": "array"
+        },
+        "qubit_mapping": {
+            "default": "parity",
+            "oneOf": [
+                {
+                    "enum": [
+                        "jordan_wigner",
+                        "parity",
+                        "bravyi_kitaev"
+                    ]
+                }
+            ],
+            "type": "string"
+        },
+        "transformation": {
+            "default": "full",
+            "oneOf": [
+                {
+                    "enum": [
+                        "full",
+                        "particle_hole"
+                    ]
+                }
+            ],
+            "type": "string"
+        },
+        "two_qubit_reduction": {
+            "default": true,
+            "type": "boolean"
+        }
+    },
+    "type": "object"
+}
+DEBUG:qiskit.chemistry.core.hamiltonian:Processing started...
+DEBUG:qiskit.chemistry.core.hamiltonian:Converting to qubit using parity mapping
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping one-body terms to Qubit Hamiltonian:
+|██████████████████████████████████████████████████| 4/4 [00:00:00:00]
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping two-body terms to Qubit Hamiltonian:
+|██████████████████████████████████████████████████| 32/32 [00:00:00:00]
+DEBUG:qiskit.chemistry.core.hamiltonian:  num paulis: 5, num qubits: 2
+DEBUG:qiskit.aqua.parser.jsonschema:Input: {
+    "aux_ops": null,
+    "qubit_op": {
+        "paulis": [
+            {
+                "coeff": {
+                    "imag": 0.0,
+                    "real": -1.0523732464635982
+                },
+                "label": "II"
+            },
+            {
+                "coeff": {
+                    "imag": 0.0,
+                    "real": 0.39793742283143163
+                },
+                "label": "IZ"
+            },
+            {
+                "coeff": {
+                    "imag": 0.0,
+                    "real": -0.3979374228314317
+                },
+                "label": "ZI"
+            },
+            {
+                "coeff": {
+                    "imag": 0.0,
+                    "real": -0.011280104234384997
+                },
+                "label": "ZZ"
+            },
+            {
+                "coeff": {
+                    "imag": 0.0,
+                    "real": 0.18093119996471008
+                },
+                "label": "XX"
+            }
+        ]
+    }
+}
+DEBUG:qiskit.aqua.parser.jsonschema:Input Schema: {
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "energy_state_schema",
+    "properties": {
+        "aux_ops": {
+            "default": null,
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "qubit_op": {
+            "default": {},
+            "type": "object"
+        }
+    },
+    "type": "object"
+}
+DEBUG:qiskit.chemistry.core.hamiltonian:Creating aux op for Number of Particles
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping one-body terms to Qubit Hamiltonian:
+|██████████████████████████████████████████████████| 4/4 [00:00:00:00]
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping two-body terms to Qubit Hamiltonian:
+|--------------------------------------------------| 0/0 []DEBUG:qiskit.chemistry.core.hamiltonian:  num paulis: 1
+DEBUG:qiskit.chemistry.core.hamiltonian:Creating aux op for S^2
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping one-body terms to Qubit Hamiltonian:
+|██████████████████████████████████████████████████| 4/4 [00:00:00:00]
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping two-body terms to Qubit Hamiltonian:
+|██████████████████████████████████████████████████| 20/20 [00:00:00:00]
+DEBUG:qiskit.chemistry.core.hamiltonian:  num paulis: 4
+DEBUG:qiskit.chemistry.core.hamiltonian:Creating aux op for Magnetization
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping one-body terms to Qubit Hamiltonian:
+|██████████████████████████████████████████████████| 4/4 [00:00:00:00]
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping two-body terms to Qubit Hamiltonian:
+|--------------------------------------------------| 0/0 []DEBUG:qiskit.chemistry.core.hamiltonian:  num paulis: 0
+DEBUG:qiskit.chemistry.core.hamiltonian:Creating aux op for dipole x
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping one-body terms to Qubit Hamiltonian:
+|--------------------------------------------------| 0/0 []DEBUG:qiskit.chemistry.fermionic_operator:Mapping two-body terms to Qubit Hamiltonian:
+|--------------------------------------------------| 0/0 []DEBUG:qiskit.chemistry.core.hamiltonian:  num paulis: 0
+DEBUG:qiskit.chemistry.core.hamiltonian:Creating aux op for dipole y
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping one-body terms to Qubit Hamiltonian:
+|--------------------------------------------------| 0/0 []DEBUG:qiskit.chemistry.fermionic_operator:Mapping two-body terms to Qubit Hamiltonian:
+|--------------------------------------------------| 0/0 []DEBUG:qiskit.chemistry.core.hamiltonian:  num paulis: 0
+DEBUG:qiskit.chemistry.core.hamiltonian:Creating aux op for dipole z
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping one-body terms to Qubit Hamiltonian:
+|██████████████████████████████████████████████████| 8/8 [00:00:00:00]
+DEBUG:qiskit.chemistry.fermionic_operator:Mapping two-body terms to Qubit Hamiltonian:
+|--------------------------------------------------| 0/0 []DEBUG:qiskit.chemistry.core.hamiltonian:  num paulis: 3
+INFO:qiskit.chemistry.core.hamiltonian:Molecule num electrons: 2, remaining for processing: 2
+INFO:qiskit.chemistry.core.hamiltonian:Molecule num spin orbitals: 4, remaining for processing: 4
+DEBUG:qiskit.chemistry.core.hamiltonian:Processing complete ready to run algorithm
+DEBUG:qiskit.aqua.parser.jsonschema:Input: {
+    "depth": 3,
+    "entanglement": "full",
+    "entanglement_gate": "cz",
+    "entangler_map": null
+}
+DEBUG:qiskit.aqua.parser.jsonschema:Input Schema: {
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "ryrz_schema",
+    "properties": {
+        "depth": {
+            "default": 3,
+            "minimum": 1,
+            "type": "integer"
+        },
+        "entanglement": {
+            "default": "full",
+            "oneOf": [
+                {
+                    "enum": [
+                        "full",
+                        "linear"
+                    ]
+                }
+            ],
+            "type": "string"
+        },
+        "entanglement_gate": {
+            "default": "cz",
+            "oneOf": [
+                {
+                    "enum": [
+                        "cz",
+                        "cx"
+                    ]
+                }
+            ],
+            "type": "string"
+        },
+        "entangler_map": {
+            "default": null,
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "type": "object"
+}
+DEBUG:qiskit.aqua.parser.jsonschema:Input: {
+    "batch_mode": false,
+    "initial_point": null,
+    "operator_mode": "paulis"
+}
+DEBUG:qiskit.aqua.parser.jsonschema:Input Schema: {
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "vqe_schema",
+    "properties": {
+        "batch_mode": {
+            "default": false,
+            "type": "boolean"
+        },
+        "initial_point": {
+            "default": null,
+            "items": {
+                "type": "number"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "operator_mode": {
+            "default": "matrix",
+            "oneOf": [
+                {
+                    "enum": [
+                        "matrix",
+                        "paulis",
+                        "grouped_paulis"
+                    ]
+                }
+            ],
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:
+==================== Setting of VQE ============================
+Algorithm: VQE
+-- random_seed: None
+-- random: None
+-- quantum_instance: None
+-- var_form: <qiskit.aqua.components.variational_forms.ryrz.RYRZ object at 0x132ec1d68>
+-- optimizer: <qiskit.aqua.components.optimizers.aqgd.AQGD object at 0x1203e3b70>
+-- cost_fn: <bound method VQE._energy_evaluation of <qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE object at 0x132ec1ba8>>
+-- initial_point: Random seed
+-- callback: None
+-- operator: Representation: paulis, qubits: 2, size: 5
+-- operator_mode: paulis
+-- eval_count: 0
+-- aux_operators: [<qiskit.aqua.operator.Operator object at 0x132ef5390>, <qiskit.aqua.operator.Operator object at 0x12dc444a8>, <qiskit.aqua.operator.Operator object at 0x11089e198>, <qiskit.aqua.operator.Operator object at 0x132f0dda0>, <qiskit.aqua.operator.Operator object at 0x132f0d668>, <qiskit.aqua.operator.Operator object at 0x132ec1320>]
+===============================================================
+Variational Form: RYRZ
+-- num_parameters: 16
+-- bounds: [(-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793)]
+-- num_qubits: 2
+-- depth: 3
+-- entangler_map: [[0, 1]]
+-- initial_state: None
+-- entanglement_gate: cz
+===============================================================
+Optimizer: AQGD
+-- gradient_support_level: 1
+-- bounds_support_level: 1
+-- initial_point_support_level: 3
+-- options: {}
+-- batch_mode: False
+-- eta: 2.0
+-- maxiter: 1000
+-- tol: 1e-06
+-- disp: False
+-- momentum_coeff: 0.25
+===============================================================
+
+INFO:qiskit.aqua.quantum_instance:
+Qiskit Terra version: 0.8.0
+Backend: 'statevector_simulator (BasicAer)', with following setting:
+{'basis_gates': ['u1', 'u2', 'u3', 'cx', 'id', 'snapshot'], 'coupling_map': None}
+{'pass_manager': None, 'initial_layout': None, 'seed_mapper': None}
+RunConfig(max_credits=10, shots=1)
+{'timeout': None}
+{}
+{}
+INFO:qiskit.aqua.algorithms.adaptive.vqalgorithm:Starting optimizer.
+bounds=[(-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793), (-3.141592653589793, 3.141592653589793)]
+initial point=[ 0.27272129 -1.39254622 -0.47426996  2.16629233 -3.11194321 -2.37775134
+  1.07284814  2.04739324 -2.28263982  0.4718253   2.45874835 -1.82713695
+ -1.97714111 -2.46064057 -1.7611926   3.00728193]
+DEBUG:qiskit.aqua.components.optimizers.optimizer:WARNING: AQGD does not support bounds. It will be ignored.
+DEBUG:qiskit.aqua.utils.run_circuits:==== Before transpiler ====
+DEBUG:qiskit.aqua.utils.run_circuits:Submitting 5 circuits.
+============================================================================
+0-th circuit: 2 qubits, 0 classical bits and 29 operations with depth 21
+ op_counts: {'u3': 8, 'u1': 8, 'barrier': 4, 'u2': 6, 'cx': 3}
+1-th circuit: 2 qubits, 0 classical bits and 30 operations with depth 22
+ op_counts: {'u3': 8, 'u1': 9, 'barrier': 4, 'u2': 6, 'cx': 3}
+2-th circuit: 2 qubits, 0 classical bits and 30 operations with depth 22
+ op_counts: {'u3': 8, 'u1': 9, 'barrier': 4, 'u2': 6, 'cx': 3}
+3-th circuit: 2 qubits, 0 classical bits and 31 operations with depth 22
+ op_counts: {'u3': 8, 'u1': 10, 'barrier': 4, 'u2': 6, 'cx': 3}
+4-th circuit: 2 qubits, 0 classical bits and 31 operations with depth 22
+ op_counts: {'u3': 10, 'u1': 8, 'barrier': 4, 'u2': 6, 'cx': 3}
+Average: 2.00 qubits, 0.00 classical bits and 30.20 operations with depth 21.80
+============================================================================
+
+DEBUG:qiskit.aqua.utils.run_circuits:====  After transpiler ====
+DEBUG:qiskit.aqua.utils.run_circuits:Submitting 5 circuits.
+============================================================================
+0-th circuit: 2 qubits, 0 classical bits and 29 operations with depth 21
+ op_counts: {'u3': 8, 'u1': 8, 'barrier': 4, 'u2': 6, 'cx': 3}
+1-th circuit: 2 qubits, 0 classical bits and 30 operations with depth 22
+ op_counts: {'u3': 8, 'u1': 9, 'barrier': 4, 'u2': 6, 'cx': 3}
+2-th circuit: 2 qubits, 0 classical bits and 30 operations with depth 22
+ op_counts: {'u3': 8, 'u1': 9, 'barrier': 4, 'u2': 6, 'cx': 3}
+3-th circuit: 2 qubits, 0 classical bits and 31 operations with depth 22
+ op_counts: {'u3': 8, 'u1': 10, 'barrier': 4, 'u2': 6, 'cx': 3}
+4-th circuit: 2 qubits, 0 classical bits and 31 operations with depth 22
+ op_counts: {'u3': 10, 'u1': 8, 'barrier': 4, 'u2': 6, 'cx': 3}
+Average: 2.00 qubits, 0.00 classical bits and 30.20 operations with depth 21.80
+============================================================================
+
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1 returned -0.9237790574822755
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 2 returned -0.886388123726488
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 3 returned -1.0002271020096531
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 4 returned -0.9214234269812583
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 5 returned -0.9583626871410266
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 6 returned -1.498629487220841
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 7 returned -0.6267895332174542
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 8 returned -1.1356771309358342
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 9 returned -1.1478057662090355
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 10 returned -1.0387052722387144
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 11 returned -1.0383298522558424
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 12 returned -1.225700727151412
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 13 returned -1.2503575684899808
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 14 returned -0.9269949780507148
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 15 returned -1.3210908566331676
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 16 returned -1.5268616115974616
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 17 returned -0.9639411496477173
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 18 returned -1.129189345421402
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 19 returned -1.0637850617938622
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 20 returned -1.0440190578443356
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 21 returned -1.478072767935743
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 22 returned -1.1442752850027915
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 23 returned -0.9310665484460157
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 24 returned -1.4033362401543186
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 25 returned -1.555598582111414
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 26 returned -1.1136667423191107
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 27 returned -1.046118590451308
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 28 returned -1.3885069207048135
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 29 returned -1.529348477309944
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 30 returned -0.9993940162263608
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 31 returned -1.8106751787652786
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 32 returned -1.6591358354386516
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 33 returned -1.6554956685843616
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 34 returned -1.6992223640778
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 35 returned -1.2773042415718376
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 36 returned -1.3647561337834906
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 37 returned -1.7016630921754008
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 38 returned -1.697462333188281
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 39 returned -1.2998635292595049
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 40 returned -0.8785703534973949
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 41 returned -1.448344174522625
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 42 returned -1.4989279303819951
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 43 returned -1.4265037918172554
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 44 returned -1.4773603468185106
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 45 returned -1.691667767339331
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 46 returned -1.725032570855317
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 47 returned -1.4014259906029796
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 48 returned -1.1483162844007728
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 49 returned -1.371009336001266
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 50 returned -1.5658587364152927
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 51 returned -1.1826871339847247
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 52 returned -1.3520505553692364
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 53 returned -1.4177583944065926
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 54 returned -1.599181598619235
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 55 returned -1.1814727812110315
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 56 returned -1.1112916009057385
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 57 returned -1.691685192823667
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 58 returned -1.6639686147865949
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 59 returned -1.3198414277726627
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 60 returned -1.491615775459038
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 61 returned -1.7679296724994995
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 62 returned -1.720869753456615
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 63 returned -1.329370407704263
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 64 returned -1.4971423399078723
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 65 returned -1.7356266383055146
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 66 returned -1.8177008905864809
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 67 returned -1.7439134187436869
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 68 returned -1.3003083423803015
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 69 returned -1.248674755652387
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 70 returned -1.7465034583121406
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 71 returned -1.732425543264502
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 72 returned -0.8528679069305105
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 73 returned -1.4508867314787128
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 74 returned -1.6998392606339559
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 75 returned -1.55847976156752
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 76 returned -1.486679821844074
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 77 returned -1.4573908622014868
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 78 returned -1.771521042845243
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 79 returned -1.7840454986370047
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 80 returned -1.3040411639725815
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 81 returned -1.1604102108379575
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 82 returned -1.503718849601605
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 83 returned -1.6898726038444396
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 84 returned -1.4362816116209824
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 85 returned -1.3272786099875358
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 86 returned -1.53968720549219
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 87 returned -1.5567288276843068
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 88 returned -1.0329452671795594
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 89 returned -1.261857656734356
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 90 returned -1.8105400929615072
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 91 returned -1.7761253391874015
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 92 returned -1.3690071003477136
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 93 returned -1.5329263137116451
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 94 returned -1.8386440021593446
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 95 returned -1.7784360934886299
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 96 returned -1.4066017347454098
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 97 returned -1.4758959341093116
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 98 returned -1.7818378670757515
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 99 returned -1.8452774961300809
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 100 returned -1.8123357431768963
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 101 returned -1.3486135099133614
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 102 returned -1.2787197859258983
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 103 returned -1.8139024545604536
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 104 returned -1.7984918265477925
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 105 returned -0.9991477874714922
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 106 returned -1.3770311512726399
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 107 returned -1.7735186436009536
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 108 returned -1.7328329742717612
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 109 returned -1.4821452475037595
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 110 returned -1.4020036993203595
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 111 returned -1.835120331990301
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 112 returned -1.8320050914730448
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 113 returned -1.1864005744718624
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 114 returned -1.323543643776892
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 115 returned -1.6136730115540496
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 116 returned -1.5837938225139754
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 117 returned -1.5134519623726208
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 118 returned -1.420427376843522
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 119 returned -1.629081076106289
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 120 returned -1.5706708650510646
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 121 returned -1.1869798829700091
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 122 returned -1.2412257683132808
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 123 returned -1.7949978057738025
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 124 returned -1.8259310218725793
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 125 returned -1.438133650809216
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 126 returned -1.4463977522435512
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 127 returned -1.7980362550709796
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 128 returned -1.8183214244923847
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 129 returned -1.400928266692823
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 130 returned -1.4695484658764857
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 131 returned -1.8222764886814455
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 132 returned -1.7965581039931875
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 133 returned -1.8440870384844992
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 134 returned -1.3623252644406851
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 135 returned -1.3992827869431868
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 136 returned -1.843686082253552
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 137 returned -1.8381470923370697
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 138 returned -1.197604097775873
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 139 returned -1.190860964803015
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 140 returned -1.7896120693318622
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 141 returned -1.7986265635523917
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 142 returned -1.446510456760354
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 143 returned -1.39086437524848
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 144 returned -1.8232162470306987
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 145 returned -1.8280578570746686
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 146 returned -1.1723816102994893
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 147 returned -1.3183524065752468
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 148 returned -1.6544001317309038
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 149 returned -1.5346787666808654
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 150 returned -1.468674761466919
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 151 returned -1.493138130261153
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 152 returned -1.6695687773707637
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 153 returned -1.5598703586394826
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 154 returned -1.3059913292283485
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 155 returned -1.201857518344252
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 156 returned -1.78305936086217
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 157 returned -1.81870556680964
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 158 returned -1.4441363178212243
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 159 returned -1.4305215577271153
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 160 returned -1.7818274685349969
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 161 returned -1.8237759388755572
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 162 returned -1.4523549959151816
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 163 returned -1.411185829596269
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 164 returned -1.82021690920464
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 165 returned -1.781576690698414
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 166 returned -1.8464707768589568
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 167 returned -1.3748648759914528
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 168 returned -1.4513664933645665
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 169 returned -1.8483687832614046
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 170 returned -1.8470430054165123
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 171 returned -1.2376082778905875
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 172 returned -1.1763430256484686
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 173 returned -1.823376189397155
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 174 returned -1.8283342584528817
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 175 returned -1.4541923258350296
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 176 returned -1.408890536903742
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 177 returned -1.8276231210521254
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 178 returned -1.8341797397135464
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 179 returned -1.1883857643934244
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 180 returned -1.2676113377353502
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 181 returned -1.6687392249010926
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 182 returned -1.6194199006512902
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 183 returned -1.4660547631582916
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 184 returned -1.4836828202374188
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 185 returned -1.671906366895693
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 186 returned -1.5835354914118798
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 187 returned -1.3168413339109573
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 188 returned -1.228205554827311
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 189 returned -1.8053991607427102
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 190 returned -1.814209702800807
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 191 returned -1.4313592438214524
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 192 returned -1.4593014666490653
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 193 returned -1.8054071079863048
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 194 returned -1.8189798176954397
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 195 returned -1.4853009511719903
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 196 returned -1.3964393451683628
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 197 returned -1.8189806161097821
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 198 returned -1.808217849348889
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 199 returned -1.8552045536118207
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 200 returned -1.4098169383323524
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 201 returned -1.4513023959005404
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 202 returned -1.8554830773660609
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 203 returned -1.8557832351117378
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 204 returned -1.211953710789193
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 205 returned -1.2180656387303215
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 206 returned -1.8466577705489313
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 207 returned -1.8438465251478453
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 208 returned -1.4560522215896206
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 209 returned -1.4348512533039346
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 210 returned -1.8334335197002052
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 211 returned -1.8332793769662594
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 212 returned -1.1869395408354628
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 213 returned -1.2354386056726718
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 214 returned -1.6953084806496508
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 215 returned -1.6991060252178969
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 216 returned -1.475016151515763
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 217 returned -1.4640792945145455
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 218 returned -1.6643364650309955
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 219 returned -1.6309923040766874
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 220 returned -1.3040392952198128
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 221 returned -1.2609780548371223
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 222 returned -1.8209466533203906
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 223 returned -1.8133898795879284
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 224 returned -1.437979131843369
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 225 returned -1.4663880247317072
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 226 returned -1.8227053725841345
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 227 returned -1.8156502542875492
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 228 returned -1.471090182442943
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 229 returned -1.4188740653655234
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 230 returned -1.81677044810369
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 231 returned -1.8239411998466764
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 232 returned -1.8564322442343701
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 233 returned -1.4315016757867751
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 234 returned -1.4503937239471973
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 235 returned -1.8548195871794095
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 236 returned -1.8559191655803398
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 237 returned -1.1928360890136398
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 238 returned -1.235559788985573
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 239 returned -1.85414388419517
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 240 returned -1.8512893099358363
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 241 returned -1.4583356017566986
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 242 returned -1.4492451344176984
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 243 returned -1.8289161648597536
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 244 returned -1.828174599410015
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 245 returned -1.1735037841247982
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 246 returned -1.2206677418503014
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 247 returned -1.725656599598352
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 248 returned -1.7358058612753247
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 249 returned -1.4710854618650564
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 250 returned -1.46340473395749
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 251 returned -1.665749318527449
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 252 returned -1.668689687076628
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 253 returned -1.3083721819701994
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 254 returned -1.275405745718056
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 255 returned -1.826316162001915
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 256 returned -1.8136173132562416
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 257 returned -1.4514455716810828
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 258 returned -1.4571097954032979
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 259 returned -1.827326146437824
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 260 returned -1.8155935349097436
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 261 returned -1.4446211482366575
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 262 returned -1.4470138690734298
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 263 returned -1.815823680469117
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 264 returned -1.827095675277182
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 265 returned -1.8559590311280065
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 266 returned -1.4419748860802277
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 267 returned -1.457125668859466
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 268 returned -1.8520732987543074
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 269 returned -1.8534992977977005
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 270 returned -1.1907181304313448
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 271 returned -1.2334233441396267
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 272 returned -1.8559497289163904
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 273 returned -1.8553742423525754
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 274 returned -1.4607202019051608
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 275 returned -1.4563159344260743
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 276 returned -1.822097455205127
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 277 returned -1.8231598801826183
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 278 returned -1.1629602741737113
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 279 returned -1.2111758943964408
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 280 returned -1.7518170289446464
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 281 returned -1.753791218350273
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 282 returned -1.4692048942091995
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 283 returned -1.4639603171818507
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 284 returned -1.6733127194195576
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 285 returned -1.685187681338708
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 286 returned -1.3200205441033581
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 287 returned -1.2813394794698396
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 288 returned -1.8256551319441152
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 289 returned -1.814108587443469
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 290 returned -1.4553798317851352
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 291 returned -1.4520779298174813
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 292 returned -1.8259697527679322
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 293 returned -1.8164460477985676
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 294 returned -1.4321857596911642
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 295 returned -1.459386900155901
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 296 returned -1.816759874785382
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 297 returned -1.8257723722689554
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 298 returned -1.856314822055765
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 299 returned -1.450862669953788
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 300 returned -1.4631446384638975
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 301 returned -1.8506315439130971
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 302 returned -1.8511116619808008
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 303 returned -1.1949612532011884
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 304 returned -1.2265766849577429
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 305 returned -1.8559256911487185
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 306 returned -1.8565300048279376
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 307 returned -1.4607766581951056
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 308 returned -1.462750983483634
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 309 returned -1.8189211196443327
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 310 returned -1.8204882722340792
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 311 returned -1.159674795995418
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 312 returned -1.2027504511125202
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 313 returned -1.772274562981836
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 314 returned -1.7688362316073065
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 315 returned -1.4721312469223125
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 316 returned -1.460542889571295
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 317 returned -1.6808479055844423
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 318 returned -1.686087209923325
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 319 returned -1.3260432393541335
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 320 returned -1.2881207590305566
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 321 returned -1.8234806839993067
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 322 returned -1.81491742614578
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 323 returned -1.4538790767190812
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 324 returned -1.452127667508077
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 325 returned -1.8237277140205639
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 326 returned -1.8181053531703515
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 327 returned -1.4347475545074548
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 328 returned -1.4563844544470994
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 329 returned -1.8184869728931756
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 330 returned -1.8235681328691655
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 331 returned -1.856546552064193
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 332 returned -1.4586746284226826
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 333 returned -1.4652258372593878
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 334 returned -1.8494007651897064
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 335 returned -1.8492196379667565
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 336 returned -1.1976221208649993
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 337 returned -1.2196389432378747
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 338 returned -1.8536297479160035
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 339 returned -1.8548003417848549
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 340 returned -1.461990300437549
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 341 returned -1.4657465340619544
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 342 returned -1.817581528419845
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 343 returned -1.8188938996442245
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 344 returned -1.1606922176912533
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 345 returned -1.194658724009193
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 346 returned -1.7868800103664795
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 347 returned -1.7821285116517565
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 348 returned -1.4732274559081764
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 349 returned -1.458286509269972
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 350 returned -1.6846374506645048
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 351 returned -1.6805106858686105
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 352 returned -1.3244409493069564
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 353 returned -1.296158331028714
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 354 returned -1.8213849429717828
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 355 returned -1.8155222339483665
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 356 returned -1.4535390498976222
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 357 returned -1.4508799119345037
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 358 returned -1.8215282338359842
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 359 returned -1.8199660434649318
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 360 returned -1.4425418378979642
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 361 returned -1.4480351697443592
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 362 returned -1.8201637614861688
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 363 returned -1.8213228297267943
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 364 returned -1.8563430918806543
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 365 returned -1.4629285072168
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 366 returned -1.465860786263385
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 367 returned -1.8477047268183118
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 368 returned -1.8478937870149224
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 369 returned -1.1972585053680773
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 370 returned -1.2118017024858319
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 371 returned -1.8499614148821355
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 372 returned -1.851212304093537
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 373 returned -1.4648229864646616
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 374 returned -1.4650399537927354
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 375 returned -1.8157883609453611
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 376 returned -1.8173647528708745
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 377 returned -1.162327376887625
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 378 returned -1.1857827751020067
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 379 returned -1.796543764272455
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 380 returned -1.7920081205568705
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 381 returned -1.4716869800747443
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 382 returned -1.4585228507123273
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 383 returned -1.684034875287477
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 384 returned -1.6750853395672618
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 385 returned -1.3183281706963146
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 386 returned -1.3026863982076167
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 387 returned -1.8196543565383172
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 388 returned -1.8162522261100797
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 389 returned -1.454862072953616
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 390 returned -1.4477489764848137
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 391 returned -1.81951528272132
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 392 returned -1.8215110003338146
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 393 returned -1.4479911879383633
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 394 returned -1.4419613491084797
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 395 returned -1.8215713651503174
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 396 returned -1.8194363169936993
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 397 returned -1.8560409817611967
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 398 returned -1.4639795807560902
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 399 returned -1.4669303138672019
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 400 returned -1.8460933498218381
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 401 returned -1.846732209851646
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 402 returned -1.1943869972979315
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 403 returned -1.2028080111006847
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 404 returned -1.8465090761787848
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 405 returned -1.847149441731507
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 406 returned -1.4668648848287804
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 407 returned -1.464031720362037
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 408 returned -1.8135454436860692
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 409 returned -1.8160646474555966
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 410 returned -1.1629181274354652
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 411 returned -1.1752924769604212
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 412 returned -1.802266092896296
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 413 returned -1.798261894461267
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 414 returned -1.4705470764189488
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 415 returned -1.4591490022781508
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 416 returned -1.680325961858106
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 417 returned -1.6717088660545507
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 418 returned -1.3102695696288955
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 419 returned -1.3060363108978488
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 420 returned -1.8182847209916555
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 421 returned -1.8173308412724654
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 422 returned -1.456068558872798
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 423 returned -1.4450896851758892
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 424 returned -1.8180273731343688
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 425 returned -1.8226368627620666
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 426 returned -1.4490246604026762
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 427 returned -1.440314309041314
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 428 returned -1.8225781829259207
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 429 returned -1.8181240754835528
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 430 returned -1.855872987210809
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 431 returned -1.4640576193813677
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 432 returned -1.468098210806367
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 433 returned -1.844999999712274
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 434 returned -1.8455369148590701
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 435 returned -1.1897363447002645
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 436 returned -1.1934759453704036
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 437 returned -1.8440723086204536
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 438 returned -1.8436699569298651
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 439 returned -1.4672555421004296
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 440 returned -1.4644778992570653
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 441 returned -1.8116821494647248
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 442 returned -1.8150715985178483
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 443 returned -1.161929524214736
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 444 returned -1.1639029170177904
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 445 returned -1.804660435927324
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 446 returned -1.8014116125956001
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 447 returned -1.4709365757183264
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 448 returned -1.4590354418117908
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 449 returned -1.6749635712406135
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 450 returned -1.668928880028032
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 451 returned -1.3013489371096656
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 452 returned -1.3062121459016534
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 453 returned -1.8171230569103678
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 454 returned -1.8183773221564095
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 455 returned -1.4565282901890886
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 456 returned -1.4436712809914314
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 457 returned -1.8170075279410434
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 458 returned -1.8232433869461857
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 459 returned -1.4469882710166202
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 460 returned -1.4416976673144322
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 461 returned -1.823023150465914
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 462 returned -1.817244740637574
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 463 returned -1.8558857974184193
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 464 returned -1.4648174456544811
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 465 returned -1.468548232612514
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 466 returned -1.8444038106314165
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 467 returned -1.8445377156222662
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 468 returned -1.184151254954513
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 469 returned -1.1844849959977692
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 470 returned -1.8427278988366909
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 471 returned -1.8413631969573063
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 472 returned -1.4670778790190804
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 473 returned -1.4656992294657076
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 474 returned -1.8106640262365594
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 475 returned -1.8142341109076507
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 476 returned -1.1591234232391947
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 477 returned -1.153042906221569
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 478 returned -1.804248451435363
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 479 returned -1.8020166561894375
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 480 returned -1.4719463515676665
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 481 returned -1.4586876038175898
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 482 returned -1.6687237465088667
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 483 returned -1.6650251731131012
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 484 returned -1.2921596880675734
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 485 returned -1.3039410666751652
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 486 returned -1.816040292054583
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 487 returned -1.8189884047416398
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 488 returned -1.4565508332713828
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 489 returned -1.4429987679477663
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 490 returned -1.816234410624962
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 491 returned -1.82330345670628
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 492 returned -1.4440809575884124
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 493 returned -1.4438382297870618
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 494 returned -1.8229433922687586
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 495 returned -1.8165863320145779
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 496 returned -1.856061340289552
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 497 returned -1.4665174876810785
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 498 returned -1.4682006412030773
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 499 returned -1.8441996351623409
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 500 returned -1.8440496515723421
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 501 returned -1.1782017749727698
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 502 returned -1.1761187680418281
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 503 returned -1.8423201875741773
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 504 returned -1.8403657653831955
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 505 returned -1.4672915637901518
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 506 returned -1.466731325128513
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 507 returned -1.8104580035194804
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 508 returned -1.8135534723895028
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 509 returned -1.1547391332572976
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 510 returned -1.1434850223046822
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 511 returned -1.8016141643020769
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 512 returned -1.8004863696926756
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 513 returned -1.4726400051506217
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 514 returned -1.4588069396983965
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 515 returned -1.6618442985832031
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 516 returned -1.6595446268218694
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 517 returned -1.2833464219096948
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 518 returned -1.2998863260733242
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 519 returned -1.8149769889087446
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 520 returned -1.8190697576620742
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 521 returned -1.4563320271030944
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 522 returned -1.4427084993032413
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 523 returned -1.8155795560043582
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 524 returned -1.822950871169452
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 525 returned -1.4418448848037544
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 526 returned -1.4451840781136414
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 527 returned -1.8225195491011448
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 528 returned -1.8160148231677722
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 529 returned -1.8563387914059402
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 530 returned -1.4684689645882159
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 531 returned -1.4676555262103261
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 532 returned -1.8443284585018231
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 533 returned -1.8441278238258996
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 534 returned -1.1722112481764508
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 535 returned -1.1684171702158888
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 536 returned -1.8426676515827645
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 537 returned -1.840471668008174
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 538 returned -1.4678966097726405
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 539 returned -1.4674000456231786
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 540 returned -1.8107762085274843
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 541 returned -1.8131561950595778
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 542 returned -1.149441215966725
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 543 returned -1.1352148968077167
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 544 returned -1.797318194892306
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 545 returned -1.797102840724115
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 546 returned -1.4727517814517028
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 547 returned -1.4595721174632563
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 548 returned -1.6544743071156023
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 549 returned -1.653013435142024
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 550 returned -1.2754463117681132
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 551 returned -1.2945323553581438
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 552 returned -1.8139006671769824
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 553 returned -1.8187149777904739
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 554 returned -1.4557946208968386
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 555 returned -1.4427703877656448
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 556 returned -1.8149926781180579
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 557 returned -1.8223306282085345
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 558 returned -1.4407699354552865
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 559 returned -1.4452893594015663
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 560 returned -1.8218788334591531
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 561 returned -1.8154659949705625
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 562 returned -1.856636978493126
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 563 returned -1.4699138215987861
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 564 returned -1.4675272331741183
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 565 returned -1.8447022406557174
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 566 returned -1.8445701048658962
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 567 returned -1.1665466798208186
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 568 returned -1.1613458310444877
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 569 returned -1.8435957079869905
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 570 returned -1.8413754423341981
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 571 returned -1.468544091251712
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 572 returned -1.4679600621859976
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 573 returned -1.811330837808188
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 574 returned -1.8130647566515126
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 575 returned -1.1438896207725253
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 576 returned -1.1280190475043332
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 577 returned -1.7918286159961052
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 578 returned -1.7921731779732588
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 579 returned -1.4723784057064115
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 580 returned -1.4607976059696415
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 581 returned -1.6469675614491615
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 582 returned -1.6461936553434227
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 583 returned -1.268672102737924
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 584 returned -1.288354530004177
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 585 returned -1.8128433268679092
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 586 returned -1.8180487833875982
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 587 returned -1.4548988183627634
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 588 returned -1.443184399595351
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 589 returned -1.814498102772754
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 590 returned -1.821503198632324
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 591 returned -1.4406065816835305
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 592 returned -1.4444900121353283
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 593 returned -1.8210569806480772
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 594 returned -1.814967130638814
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 595 returned -1.8568932001859761
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 596 returned -1.4706201693938084
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 597 returned -1.4679485209180219
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 598 returned -1.8451926927153282
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 599 returned -1.8451292710190028
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 600 returned -1.1615515138531725
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 601 returned -1.155011443658157
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 602 returned -1.8449353167109923
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 603 returned -1.8428347982405142
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 604 returned -1.4691046327361503
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 605 returned -1.4685923967232641
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 606 returned -1.81196301700037
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 607 returned -1.8131536630966636
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 608 returned -1.1384914050314554
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 609 returned -1.1218365615265042
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 610 returned -1.785529655606056
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 611 returned -1.786131831891485
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 612 returned -1.4716749436645955
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 613 returned -1.4622160136650517
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 614 returned -1.6398543486196564
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 615 returned -1.6396894728672096
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 616 returned -1.2629665836853994
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 617 returned -1.2818688899851578
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 618 returned -1.8119252862639044
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 619 returned -1.8171925633708699
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 620 returned -1.4537763962121177
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 621 returned -1.4438572740444438
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 622 returned -1.8141883885115944
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 623 returned -1.8205067576720138
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 624 returned -1.4408498747662426
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 625 returned -1.4434019076970563
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 626 returned -1.8200870088606764
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 627 returned -1.814622973387203
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 628 returned -1.857077862740815
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 629 returned -1.4708557802208557
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 630 returned -1.4686032344671767
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 631 returned -1.8456982390110581
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 632 returned -1.845654227841436
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 633 returned -1.1573375616008401
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 634 returned -1.1496994751329075
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 635 returned -1.8465141220741075
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 636 returned -1.8446579790755178
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 637 returned -1.4696297745924185
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 638 returned -1.469320047125928
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 639 returned -1.8126262702883094
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 640 returned -1.8132873730263812
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 641 returned -1.1334428052205632
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 642 returned -1.1167704556781064
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 643 returned -1.7787590147853853
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 644 returned -1.779481171925709
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 645 returned -1.4707680799522955
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 646 returned -1.4636204857844621
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 647 returned -1.633603841499715
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 648 returned -1.6338873233885594
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 649 returned -1.2582118873758645
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 650 returned -1.2755330392056756
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 651 returned -1.8112727193413836
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 652 returned -1.8162679231411192
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 653 returned -1.4526306991422726
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 654 returned -1.4446513815256827
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 655 returned -1.8141434062855502
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 656 returned -1.8194223959599993
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 657 returned -1.4410866425460565
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 658 returned -1.44252767327307
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 659 returned -1.8190512573236017
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 660 returned -1.8145226198025368
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 661 returned -1.8571877755356425
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 662 returned -1.470987559528225
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 663 returned -1.4690881188236518
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 664 returned -1.8461840561537763
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 665 returned -1.846097921627835
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 666 returned -1.1538221959304864
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 667 returned -1.145670381355792
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 668 returned -1.8481588487591516
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 669 returned -1.8466422653555048
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 670 returned -1.4701096141571572
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 671 returned -1.470120813405686
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 672 returned -1.8133212889948525
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 673 returned -1.8134397991547615
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 674 returned -1.128872854210372
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 675 returned -1.112975483008888
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 676 returned -1.7718422462737986
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 677 returned -1.7726643738440404
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 678 returned -1.4697424994421044
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 679 returned -1.4649122959985734
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 680 returned -1.6284386140120222
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 681 returned -1.6289898563725003
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 682 returned -1.2543706180542857
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 683 returned -1.269652160210396
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 684 returned -1.810921910436483
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 685 returned -1.8153752553967775
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 686 returned -1.451605000494919
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 687 returned -1.4454537945634047
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 688 returned -1.8143536007790837
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 689 returned -1.8183557523195306
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 690 returned -1.4411449400280734
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 691 returned -1.4420640801118454
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 692 returned -1.8180517363319193
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 693 returned -1.8146624264374276
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 694 returned -1.8572334714616987
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 695 returned -1.471175328898847
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 696 returned -1.4692052324832918
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 697 returned -1.846662832604233
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 698 returned -1.8464723610514298
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 699 returned -1.15092252792737
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 700 returned -1.14297432580066
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 701 returned -1.8497177417789845
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 702 returned -1.848577337473014
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 703 returned -1.4704172737880303
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 704 returned -1.4709764386941122
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 705 returned -1.814067897655077
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 706 returned -1.8136970310384068
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 707 returned -1.124941438127822
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 708 returned -1.1105431762658298
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 709 returned -1.76510618886504
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 710 returned -1.7660178231747676
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 711 returned -1.4686435549062595
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 712 returned -1.4660842568059496
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 713 returned -1.6243458891171978
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 714 returned -1.6250470535610662
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 715 returned -1.251466838633562
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 716 returned -1.2643926637666079
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 717 returned -1.8108164549806574
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 718 returned -1.8145743002516945
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 719 returned -1.450742560439272
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 720 returned -1.446209407498002
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 721 returned -1.8147312834089162
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 722 returned -1.8173933095971744
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 723 returned -1.4410736988415285
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 724 returned -1.441927513552844
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 725 returned -1.8171665665240815
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 726 returned -1.814961580442948
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 727 returned -1.8572319174601009
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 728 returned -1.4713609912607313
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 729 returned -1.4689967949278913
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 730 returned -1.8471564978672206
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 731 returned -1.8468132357490983
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 732 returned -1.1486538000772055
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 733 returned -1.1414674248911107
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 734 returned -1.851087276286967
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 735 returned -1.8502992610298399
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 736 returned -1.470431141532556
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 737 returned -1.4718388321951372
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 738 returned -1.8149084964452036
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 739 returned -1.8141828241297642
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 740 returned -1.121838829854461
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 741 returned -1.1094445438857892
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 742 returned -1.758860205421291
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 743 returned -1.7598115344766816
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 744 returned -1.4675031596497081
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 745 returned -1.4671619509135918
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 746 returned -1.6212111023044136
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 747 returned -1.622003389893764
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 748 returned -1.2494894574791047
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 749 returned -1.2598632340143197
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 750 returned -1.810872735213813
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 751 returned -1.8138915940378935
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 752 returned -1.4500255075136
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 753 returned -1.446915239307662
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 754 returned -1.8151775929938363
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 755 returned -1.8165886332830115
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 756 returned -1.441013500441399
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 757 returned -1.4419235357026734
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 758 returned -1.8164398180614574
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 759 returned -1.8153293768054388
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 760 returned -1.8572038127166672
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 761 returned -1.4714240367491334
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 762 returned -1.4686106824894642
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 763 returned -1.847673650050015
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 764 returned -1.8471615864940056
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 765 returned -1.147084812887915
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 766 returned -1.1409477061618756
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 767 returned -1.8522219872955146
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 768 returned -1.8517258950212248
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 769 returned -1.4701422773390107
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 770 returned -1.4726052213229013
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 771 returned -1.8158996066833397
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 772 returned -1.81498288066081
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 773 returned -1.119720360536805
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 774 returned -1.1095466795470323
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 775 returned -1.7533571702367396
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 776 returned -1.754282955178163
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 777 returned -1.4663713248196872
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 778 returned -1.4681493423571639
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 779 returned -1.618928250748493
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 780 returned -1.6197658275905116
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 781 returned -1.2483454812263404
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 782 returned -1.2561648395568088
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 783 returned -1.811031281056172
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 784 returned -1.813338355041671
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 785 returned -1.4494259654430295
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 786 returned -1.4475902470876738
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 787 returned -1.815627909566216
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 788 returned -1.8159703312918436
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 789 returned -1.4410608322525815
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 790 returned -1.441913343069149
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 791 returned -1.8158924793755435
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 792 returned -1.815708089878866
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 793 returned -1.857169657771379
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 794 returned -1.4713025877702364
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 795 returned -1.468170049291537
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 796 returned -1.8482075660950728
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 797 returned -1.8475510013436465
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 798 returned -1.1462613270968887
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 799 returned -1.1412528218011733
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 800 returned -1.8531237190294654
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 801 returned -1.8528483539707858
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 802 returned -1.4696469618316255
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 803 returned -1.4731475498799766
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 804 returned -1.8170817341148005
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 805 returned -1.8161110581100475
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 806 returned -1.1186511213077674
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 807 returned -1.1106652941624218
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 808 returned -1.7487610283295907
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 809 returned -1.7496162047753998
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 810 returned -1.4653258386084753
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 811 returned -1.4690119782125222
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 812 returned -1.6174261024561523
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 813 returned -1.6182561756971514
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 814 returned -1.2478942173461722
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 815 returned -1.2533774924589902
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 816 returned -1.8112613639748072
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 817 returned -1.8129187358170256
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 818 returned -1.4489292493220134
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 819 returned -1.448245389462528
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 820 returned -1.816051565105217
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 821 returned -1.815548603463053
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 822 returned -1.4412138325619794
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 823 returned -1.441871879492361
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 824 returned -1.8155303798433575
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 825 returned -1.8160713200661798
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 826 returned -1.8571447140728377
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 827 returned -1.4710073451339922
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 828 returned -1.4677326733447753
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 829 returned -1.8487435892851454
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 830 returned -1.8479971938269437
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 831 returned -1.1461774272288467
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 832 returned -1.142267598569187
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 833 returned -1.8538211730098797
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 834 returned -1.8537004214467503
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 835 returned -1.4690692424035832
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 836 returned -1.4733676500256907
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 837 returned -1.8184515546325375
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 838 returned -1.817516296969036
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 839 returned -1.118599256252995
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 840 returned -1.1126067113930567
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 841 returned -1.7451367658349592
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 842 returned -1.7459024839118638
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 843 returned -1.4644536701955528
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 844 returned -1.4696946070325883
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 845 returned -1.6166423565741972
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 846 returned -1.617419681253318
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 847 returned -1.2480032852942038
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 848 returned -1.2515252347293642
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 849 returned -1.8115415732586428
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 850 returned -1.8126286797359554
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 851 returned -1.448532159325376
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 852 returned -1.448871375845279
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 853 returned -1.8164324908605858
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 854 returned -1.8153160289586752
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 855 returned -1.4414067745363908
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 856 returned -1.4418439935020824
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 857 returned -1.815344473757862
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 858 returned -1.8164048956463898
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 859 returned -1.8571361890501052
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 860 returned -1.470577953224221
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 861 returned -1.467315379617599
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 862 returned -1.849265280288791
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 863 returned -1.848494236614572
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 864 returned -1.1467858050887543
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 865 returned -1.1438885780803694
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 866 returned -1.8543513163554415
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 867 returned -1.8543308749943437
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 868 returned -1.4684981629895424
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 869 returned -1.473232012740479
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 870 returned -1.8199573551235073
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 871 returned -1.8191075006532713
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 872 returned -1.1194609539557434
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 873 returned -1.1151841673396643
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 874 returned -1.742460352083658
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 875 returned -1.7431294170550087
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 876 returned -1.4638202518159131
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 877 returned -1.4701498472331185
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 878 returned -1.6164973817145192
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 879 returned -1.6172011961284087
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 880 returned -1.2485720946776204
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 881 returned -1.25056287528422
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 882 returned -1.8118460912533463
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 883 returned -1.8124544813652614
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 884 returned -1.448234772062081
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 885 returned -1.4494433507272058
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 886 returned -1.8167575681019539
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 887 returned -1.8152490117535804
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 888 returned -1.4415747978500202
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 889 returned -1.4418735185046003
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 890 returned -1.8153111190945328
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 891 returned -1.816695905191775
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 892 returned -1.857143866058869
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 893 returned -1.4700489484738934
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 894 returned -1.4669254258357656
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 895 returned -1.849756861833449
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 896 returned -1.8490193157611903
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 897 returned -1.1480092607885852
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 898 returned -1.1459993517263816
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 899 returned -1.8547482339255885
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 900 returned -1.8547873391266134
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 901 returned -1.4679743733455504
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 902 returned -1.4727702400703142
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 903 returned -1.8215165700603895
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 904 returned -1.8207782204391751
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 905 returned -1.1210864358192623
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 906 returned -1.1182186693696212
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 907 returned -1.7406396291943957
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 908 returned -1.7412056952905417
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 909 returned -1.4634486262648858
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 910 returned -1.470358079789783
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 911 returned -1.616889413079445
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 912 returned -1.6175212638279668
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 913 returned -1.2495211974081124
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 914 returned -1.2503896023749048
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 915 returned -1.8121452278350936
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 916 returned -1.8123750680205524
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 917 returned -1.4480355376899992
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 918 returned -1.4499324731336207
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 919 returned -1.8170167055994095
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 920 returned -1.8153131366705137
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 921 returned -1.4416920593299773
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 922 returned -1.441965842340519
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 923 returned -1.8153967448489539
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 924 returned -1.8169333577203137
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 925 returned -1.8571629572049768
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 926 returned -1.4694457547061908
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 927 returned -1.4665713988008133
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 928 returned -1.8502043036786233
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 929 returned -1.8495423056567373
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 930 returned -1.1497417982176392
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 931 returned -1.1484689188062571
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 932 returned -1.8550392969785072
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 933 returned -1.855109749851837
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 934 returned -1.4675078848144274
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 935 returned -1.4720519643853927
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 936 returned -1.8230404623246719
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 937 returned -1.8224254111621465
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 938 returned -1.1232963295188165
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 939 returned -1.1215373602281877
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 940 returned -1.7395396857117609
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 941 returned -1.739997708688087
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 942 returned -1.4633190574122823
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 943 returned -1.4703320602274763
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 944 returned -1.6177045709706555
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 945 returned -1.6182726407778407
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 946 returned -1.2507742837055225
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 947 returned -1.250871372922882
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 948 returned -1.8124128108861324
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 949 returned -1.8123663147588809
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 950 returned -1.447929514964202
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 951 returned -1.45031633893631
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 952 returned -1.817206373671893
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 953 returned -1.815470273533217
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 954 returned -1.4417693054712244
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 955 returned -1.442093378862536
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 956 returned -1.815564717682147
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 957 returned -1.8171121153385916
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 958 returned -1.8571872890370613
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 959 returned -1.4687942474115998
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 960 returned -1.4662601597204428
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 961 returned -1.8505966878119307
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 962 returned -1.8500347146729872
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 963 returned -1.1518506100548296
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 964 returned -1.151159741020307
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 965 returned -1.8552456605480638
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 966 returned -1.8553293216244806
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 967 returned -1.4670977126645344
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 968 returned -1.471162641507342
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 969 returned -1.8244530898525562
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 970 returned -1.8239625081210524
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 971 returned -1.1258949559181675
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 972 returned -1.1249749064741297
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 973 returned -1.7390083458021877
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 974 returned -1.7393586915377366
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 975 returned -1.463384095955319
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 976 returned -1.4701098451677639
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 977 returned -1.618828497757164
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 978 returned -1.6193347889537393
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 979 returned -1.252250539990209
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 980 returned -1.2518586897357584
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 981 returned -1.812632016345328
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 982 returned -1.8124048688811203
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 983 returned -1.4479076621180749
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 984 returned -1.450584862452574
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 985 returned -1.8173306031207956
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 986 returned -1.8156842769230632
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 987 returned -1.4418306760394684
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 988 returned -1.4422202949548462
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 989 returned -1.8157808553614816
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 990 returned -1.8172341670672816
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 991 returned -1.8572115720533557
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 992 returned -1.4681257967277503
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 993 returned -1.4659934313693845
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 994 returned -1.8509275493646737
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 995 returned -1.850474980198704
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 996 returned -1.1541873186149894
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 997 returned -1.153935554203924
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 998 returned -1.8553841201521242
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 999 returned -1.8554699483357908
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1000 returned -1.4667407974206896
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1001 returned -1.4701875499468946
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1002 returned -1.8257006011734718
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1003 returned -1.8253271303382907
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1004 returned -1.1286866581748072
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1005 returned -1.1283784624705004
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1006 returned -1.7388974446836636
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1007 returned -1.7391468728535402
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1008 returned -1.4635870551725494
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1009 returned -1.4697429352994755
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1010 returned -1.6201535792947532
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1011 returned -1.6205922450844186
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1012 returned -1.2538668803913502
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1013 returned -1.253199079025959
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1014 returned -1.8127968324528647
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1015 returned -1.812470534376358
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1016 returned -1.4479569724571313
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1017 returned -1.4507412295299762
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1018 returned -1.8173991839108556
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1019 returned -1.8159242094373906
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1020 returned -1.441893862079286
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1021 returned -1.4423220956846254
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1022 returned -1.8160163994746832
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1023 returned -1.8173070846708763
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1024 returned -1.8572324279404286
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1025 returned -1.467474156770389
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1026 returned -1.465768529937173
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1027 returned -1.8511953792944709
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1028 returned -1.8508501450875583
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1029 returned -1.15660492225466
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1030 returned -1.1566689964737675
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1031 returned -1.855468690124705
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1032 returned -1.8555502231947556
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1033 returned -1.4664331435918776
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1034 returned -1.4692029558929842
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1035 returned -1.8267529391961317
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1036 returned -1.82648331390592
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1037 returned -1.131493562878957
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1038 returned -1.131615150921546
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1039 returned -1.7390767625146453
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1040 returned -1.739236513216853
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1041 returned -1.4638750340380338
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1042 returned -1.4692852784974442
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1043 returned -1.621582703234669
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1044 returned -1.6219461424286494
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1045 returned -1.255543074885596
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1046 returned -1.2547479270285677
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1047 returned -1.8129102139205882
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1048 returned -1.812547418020494
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1049 returned -1.4480618170741082
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1050 returned -1.4507991376860987
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1051 returned -1.8174249447539144
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1052 returned -1.816165729002352
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1053 returned -1.4419638395127616
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1054 returned -1.4423909701909434
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1055 returned -1.8162491534843443
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1056 returned -1.817341546780177
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1057 returned -1.8572484288975897
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1058 returned -1.4668694269553086
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1059 returned -1.4655808123743654
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1060 returned -1.8514030529649517
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1061 returned -1.85115528130444
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1062 returned -1.158972978267118
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1063 returned -1.1592505584492767
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1064 returned -1.8555114563132176
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1065 returned -1.8555851212874548
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1066 returned -1.4661694634273743
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1067 returned -1.4682708118625392
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1068 returned -1.827601223631726
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1069 returned -1.8274191218482612
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1070 returned -1.134169705099498
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1071 returned -1.1345798522592805
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1072 returned -1.7394403343551912
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1073 returned -1.7395241424215024
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1074 returned -1.4642045332692466
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1075 returned -1.4687858409802035
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1076 returned -1.6230319764465273
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1077 returned -1.6233171599171339
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1078 returned -1.257206130777743
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1079 returned -1.2563783183584054
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1080 returned -1.81298072282016
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1081 returned -1.8126242186982688
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1082 returned -1.4482059484806054
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1083 returned -1.450778327477014
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1084 returned -1.8174212633907136
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1085 returned -1.8163914527640768
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1086 returned -1.4420368504651058
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1087 returned -1.4424308197445914
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1088 returned -1.8164636526714661
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1089 returned -1.8173490289545844
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1090 returned -1.8572595933096752
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1091 returned -1.4663337848239917
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1092 returned -1.465425365958836
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1093 returned -1.8515565646101448
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1094 returned -1.8513918812460288
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1095 returned -1.1611872682077011
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1096 returned -1.161596670256837
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1097 returned -1.8555228598348605
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1098 returned -1.8555870005268555
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1099 returned -1.4659439452545484
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1100 returned -1.4674354806819196
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1101 returned -1.8282531264443627
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1102 returned -1.8281414950849224
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1103 returned -1.1366084504306142
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1104 returned -1.1372004472055413
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1105 returned -1.7399071491711118
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1106 returned -1.739930155539574
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1107 returned -1.4645422260065726
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1108 returned -1.4682848355570313
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1109 returned -1.624433133766276
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1110 returned -1.6246438044671025
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1111 returned -1.258793835667455
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1112 returned -1.2579878547231145
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1113 returned -1.813019038378853
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1114 returned -1.8126938869496785
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1115 returned -1.4483741566493828
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1116 returned -1.4507003138373782
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1117 returned -1.8174001126185546
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1118 returned -1.8165906225172037
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1119 returned -1.442106897515332
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1120 returned -1.4424497453838798
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1121 returned -1.8166507057256227
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1122 returned -1.81733995281668
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1123 returned -1.8572667380956127
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1124 returned -1.4658801045790464
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1125 returned -1.4652976984423547
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1126 returned -1.8516636241822675
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1127 returned -1.8515659239724676
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1128 returned -1.163174105331453
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1129 returned -1.1636535828149173
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1130 returned -1.8555117248367434
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1131 returned -1.8555660205573972
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1132 returned -1.4657515131266627
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1133 returned -1.4667228673182406
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1134 returned -1.828727653572225
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1135 returned -1.828670282396937
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1136 returned -1.1387433310459578
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1137 returned -1.1394386233156364
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1138 returned -1.7404187252528318
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1139 returned -1.74039653952277
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1140 returned -1.4648640203084662
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1141 returned -1.4678124353177915
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1142 returned -1.625735001162263
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1143 returned -1.6258800782101015
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1144 returned -1.260257640959081
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1145 returned -1.259501107834772
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1146 returned -1.813035284048864
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1147 returned -1.8127528521128138
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1148 returned -1.4485531239222047
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1149 returned -1.450585385710441
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1150 returned -1.817370818728403
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1151 returned -1.8167581657983611
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1152 returned -1.4421697648306078
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1153 returned -1.4424550502556137
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1154 returned -1.8168064011171472
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1155 returned -1.8173224884803623
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1156 returned -1.8572709399778669
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1157 returned -1.4655125978076724
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1158 returned -1.4651940387702977
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1159 returned -1.8517324948669829
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1160 returned -1.8516860038209508
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1161 returned -1.1648904690533213
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1162 returned -1.1653961418429175
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1163 returned -1.8554852693340285
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1164 returned -1.8555302901790114
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1165 returned -1.4655884746480088
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1166 returned -1.466142234064497
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1167 returned -1.8290502593184004
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1168 returned -1.8290327371249429
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1169 returned -1.1405440682427133
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1170 returned -1.1412863427470947
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1171 returned -1.7409353364778966
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1172 returned -1.7408827413588754
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1173 returned -1.4651540076902076
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1174 returned -1.4673888493493001
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1175 returned -1.6269034013138193
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1176 returned -1.6269940733500456
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1177 returned -1.2615642346236495
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1178 returned -1.260868316229706
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1179 returned -1.8130376237557018
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1180 returned -1.8128000726261904
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1181 returned -1.4487317336371328
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1182 returned -1.450450974622059
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1183 returned -1.817339686635375
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1184 returned -1.816893351229379
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1185 returned -1.4422238213179641
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1186 returned -1.4424517002011363
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1187 returned -1.8169307691039538
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1188 returned -1.8173021749403309
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1189 returned -1.8572731995320646
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1190 returned -1.4652284846117327
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1191 returned -1.4651114734804487
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1192 returned -1.851771190125082
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1193 returned -1.8517617600790668
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1194 returned -1.1663208425353648
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1195 returned -1.1668231279197336
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1196 returned -1.8554491989223292
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1197 returned -1.855486014605428
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1198 returned -1.4654523537655457
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1199 returned -1.465689945768682
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1200 returned -1.8292488419149335
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1201 returned -1.829259050444717
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1202 returned -1.1420097559547335
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1203 returned -1.1427595514658127
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1204 returned -1.741431872170727
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1205 returned -1.7413615454372384
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1206 returned -1.4654034540086605
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1207 returned -1.467025200723554
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1208 returned -1.6279195625096756
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1209 returned -1.6279670338536825
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1210 returned -1.2626952550621504
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1211 returned -1.2620619002587767
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1212 returned -1.8130319910058579
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1213 returned -1.8128361442474064
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1214 returned -1.448901235623686
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1215 returned -1.4503109761073396
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1216 returned -1.8173103751617932
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1217 returned -1.8169983520433837
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1218 returned -1.442269105088281
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1219 returned -1.4424428443565906
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1220 returned -1.8170263983412678
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1221 returned -1.817282248176872
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1222 returned -1.8572742929205655
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1223 returned -1.4650200800500466
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1224 returned -1.465047823210373
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1225 returned -1.851786989062036
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1226 returned -1.8518027292835502
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1227 returned -1.1674716827996734
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1228 returned -1.1679513674437008
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1229 returned -1.8554078799183402
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1230 returned -1.8554377452001856
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1231 returned -1.4653413325987894
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1232 returned -1.46535384349417
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1233 returned -1.8293508079111371
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1234 returned -1.8293790500300504
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1235 returned -1.1431608666252246
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1236 returned -1.1438909876957624
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1237 returned -1.7418938907502721
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1238 returned -1.7418157156377285
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1239 returned -1.465609547505895
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1240 returned -1.466725008656693
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1241 returned -1.6287775603605399
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1242 returned -1.6287919933583956
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1243 returned -1.263645405829152
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1244 returned -1.2630721203291198
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1245 returned -1.8130224365826568
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1246 returned -1.8128625868495416
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1247 returned -1.4490553857875594
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1248 returned -1.4501756140768816
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1249 returned -1.8172846361174775
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1250 returned -1.8170769844802461
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1251 returned -1.4423062354272052
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1252 returned -1.4424307607293287
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1253 returned -1.8170972527166287
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1254 returned -1.8172643056275979
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1255 returned -1.8572747500709954
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1256 returned -1.4648768799030822
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1257 returned -1.4650012860055963
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1258 returned -1.8517861860626512
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1259 returned -1.8518176238106459
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1260 returned -1.1683648348001738
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1261 returned -1.168809942585077
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1262 returned -1.8553645498944575
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1263 returned -1.855388695448391
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1264 returned -1.4652537184421037
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1265 returned -1.4651171924272604
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1266 returned -1.8293811419328951
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1267 returned -1.8294199998783551
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1268 returned -1.1440313920316556
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1269 returned -1.1447234087416176
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1270 returned -1.7423142333002615
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1271 returned -1.7422353175325767
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1272 returned -1.4657738471126442
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1273 returned -1.4664860822353727
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1274 returned -1.6294813727989985
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1275 returned -1.6294716405320675
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1276 returned -1.2644197464793
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1277 returned -1.2639026102684066
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1278 returned -1.8130115995991014
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1279 returned -1.8128813194073643
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1280 returned -1.4491904339403059
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1281 returned -1.4500516471498006
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1282 returned -1.8172630276575779
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1283 returned -1.8171337430627148
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1284 returned -1.442335842552463
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1285 returned -1.4424173792438912
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1286 returned -1.8171477892065022
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1287 returned -1.8172489381678512
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Energy evaluation 1288 returned -1.857274896252508
+INFO:qiskit.aqua.algorithms.adaptive.vqe.vqe:Optimization complete in 248.25904607772827 seconds.
+Found opt_params [-0.11828655 -1.38329087 -0.05270486  2.35188683 -2.87739425 -2.51956716
+  0.3757672   2.6162576  -2.05160154 -0.03122789  2.80876683 -2.06435713
+ -2.31457903 -2.64253407 -3.25396254  2.91947824] in 40 evals
+-1.857274896252508
+<qiskit.aqua.components.optimizers.aqgd.AQGD object at 0x1203e3b70>
+248.5238208770752
+
+Process finished with exit code 0
